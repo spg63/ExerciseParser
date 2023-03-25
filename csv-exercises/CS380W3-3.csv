@@ -1,0 +1,384 @@
+Timestamp,ID,Your first and last name(s),"Problem: Tracing search algorithm for the Romanian Railroad problem. 
+
+Find the shortest path from Arad to Bucharest, using Algorithm A*. Estimates of the distance from each city to Bucharest are made using the geometric (straight-line) between the cities, given in the table at the bottom. You are to find a shortest path from A (Arad) to B (Bucharest) with Algorithm A*. 
+
+Show the OPEN list at each cycle of the algorithm; referring to each city by the first letter of its name. (A concise way of showing your answer would be to show the name of each node as it is added to OPEN followed by its depth, heuristic, and total=depth+h.)
+",Compare your answer with the previous exercise where you used UCS.
+1/25/23 16:20,oc76,Omri Chashper,"Initial:
+OPEN = [A]
+
+Step 1:
+OPEN = [Z, S, T]
+
+Step 2:
+OPEN = [Z, F, RV]
+
+Step 3:
+OPEN = [Z, RV, B]
+
+Step 4:
+OPEN = [Z, RV]","Assuming I understand A* and did it right, this algorithm reaches the goal quicker (more optimally). A* yields the goal in 4 steps, whereas with the UCS approach, I illustrated up to step 6, and still didn't reach the goal."
+1/25/23 16:17,ht377,Harshil Thakur,"A
+Z S T
+Z(374) F(178) R(193) T(329)
+Z (374) B(0) R(193) T(329)
+
+A S F B",Before we were comparing all the nodes according to the cost. But now we were looking at the heursitc. 
+1/25/23 16:18,atb87,Andrew Bui,"(A, 0, 366, 366)
+(Z, 75, 374, 449), (S, 140, 253, 393), (T, 118, 329, 447)
+(Z, 75, 374, 449), (F, 239, 178, 417), (R, 220, 193, 413), (T, 118, 329, 447)
+(Z, 75, 374, 449), (F, 239, 178, 417), (C, 366, 160, 526), (P, 317, 98, 415), (T, 118, 329, 447)
+(Z, 75, 374, 449), (F, 239, 178, 417), (C, 366, 160, 526), (B, 418, 0, 418), (T, 118, 329, 447)
+(Z, 75, 374, 449), (B, 450, 0, 450), (C, 366, 160, 526), (B, 418, 0, 418), (T, 118, 329, 447)
+(Z, 75, 374, 449), (B, 450, 0, 450), (C, 366, 160, 526), (T, 118, 329, 447)
+A, S, R, P, B","UCS went through many other nodes since g(h) was smaller. However, A* keeps track of both g(n) and h(n), making it faster in finding the optimal path."
+1/25/23 16:18,cth59,Cole Hoener,"A d=0 h=366 total=366
+Z d=75 h=374 total=449, S d=140, h=253 total=393, T d=118 h=329 total=447,
+...
+",Much quicker at finding the correct path rather than trying others that aren't right
+1/25/23 16:19,jad553,Joshua Derikito,"A0
+Z1, S1, T1
+Z1, A2, O2, R2, F2, T1
+Z1, A2, O2, R2, F2, T1
+Z1, A2, O2, R2, B3, S3, T1
+Z1, A2, O2, C3, P3, B3, S3, T1
+Z1, A2, O2, C3, B4, C4, R4, B3, S3, T1
+
+Shortest path = A S R P B","A* found the answer fastest than UCS, doesn't go through Zerind and Timisoara"
+1/25/23 16:20,hz436,Hengrui Zhou,"[A 366 0]
+[A 366, S 253 ]
+[A 366, S 253, R 193]
+[A 366, S 253, R 193, P 98]
+[A 366, S 253, R 193, P 98, B 0]","A*=[A,S,R,P,B], UCS=[A,S,F,B]"
+1/25/23 16:21,mi374,Michael Ibrahim,"Open List 
+A
+Z S T
+S
+F R
+
+Closed List
+A
+S"," For me UCS is far more simple to work out in my head then A*, but I understand how A* is more efficient because it is more informed and uses heuristics. "
+1/25/23 16:21,qtn35,mathilda nguyen,"{A}, {A,S,T}, {S}, {RC, F}, {F}, {B} => A,S,F,B = 440",faster 
+1/25/23 16:21,hlp54,Ken Pham,"open = [arad]
+closed = []
+
+open = [zerind, sibiu, timisoara]
+closed = [arad]
+
+open = [sibiu, timisoara, oradea]
+closed = [arad, zerind]", 
+1/25/23 16:21,ww398,Wanzhen Wen,A->Z_>O->T,They are similar.
+1/25/23 16:21,ji328,Josephina Im,"A(0, 366)
+Z(75, 374), T(118,329), S(140,253)
+Z(75, 374), T(118,329), F(99,178), RV(80,193)
+",The depth and heuristic are added for A* whereas  for UCS it was looking for lowest path cost only.
+1/25/23 16:21,rv424,Richard Vo,"A
+Z,S,T 
+Z,R,F,T
+Z,R,B,T",It is much quicker
+1/25/23 16:21,np657,Nikhil Parakh,"OPEN = [Arad(366)]
+CLOSED = []
+
+OPEN = [Z(374), T(329), ]
+CLOSED = [Arad(366), ]
+
+OPEN = [Z(374), T(329), S(253), F(178), RV(193)]
+CLOSED = [Arad(366), S(253)]
+
+OPEN = [Z(374), T(329), S(253), RV(193), Bucharest(0)]
+CLOSED = [Arad(366), S(253), F(178) ]
+
+OPEN = [Z(374), T(329), S(253), RV(193)]
+CLOSED = [Arad(366), S(253), F(178), Bucharest(0) ]
+
+",The path will be [ Arad -> Sibiu -> Fagaras -> Bucharest ]
+1/25/23 16:21,ada77,Abby Adeola,"S = 140 + 253 = 393
+Z = 75 + 374 = 449
+T = 118 + 329 = 447
+
+S < Z and S < T
+A = 280 + 366 = 646
+O = 291 + 380 = 671
+F = 239 + 176 = 415
+R = 220 + 193 = 413
+
+R < all above
+
+C = 366 + 160 = 526
+P = 317 + 100 = 417
+S = 300 + 253 = 553
+
+F < all above
+
+
+",Couldn't finish
+1/25/23 16:21,mkp68,Mohyl Patel,"0: Open = a
+     closed = 
+1: Open = z,t,s
+     closed = a
+2: Open = f,r
+     closed = a,s
+3: Open = c,p
+     closed = a,s,r
+4: Open = c,b
+     closed = a,s,r,p
+5: Open = b
+     closed = a,s,r,p",A* choses the best possible outcome before moving
+1/25/23 16:21,tn444,Tim Nguyen,"initial:
+A
+
+Z S T
+
+Z F RV
+
+Z RV B
+
+Z RV
+
+Z P C
+
+Z C",I ran out of time...
+1/25/23 16:21,rmf323,Reed Fleming,"A <Z 75, S 140, T 118> -> A, T <Z 75, S 140, L 70> -> A, T, L <Z 75, S 140,  M 70> ->  A, T, L, S <Z 75,  M 70, F 99, RV 80> ......","it is similar, but more memory efficient"
+1/25/23 16:21,cel334,Chance Leed,"[A F=(366+0)]
+[Z F=(374+75), S F=(253+140), T F=(328+118)]
+[Z F=(374+75)[449], {F F=(140+99+178)[417], RV F=(140+80+193)[413]}, T F=(328+118)[440]]
+[Z F=(374+75)[449], F F=(140+99+178)[417], {RV F=(140+80+193)[413]}, T F=(328+118)[440]]
+
+",This time we are taking the sibiu to fagaras to bucharest
+1/25/23 16:21,jd3622,Jack Durgin,"[A g:0 h:366]
+
+Open A
+
+[Z g:75 h:374, S g:140 h:253, T g:118, h:329]
+
+Open S
+
+[Z g:75 h:374, F g: 239 h:178, R g:220 h:193, T g:118, h:329]
+
+Open R
+
+[Z g:75 h:374, F g: 239 h:178, P g:317 h:98, C g:366 h:160, T g:118, h:329]
+
+Open P
+
+[Z g:75 h:374, F g: 239 h:178, B h:418 g:0, C g:366 h:160, T g:118, h:329]
+
+Open F
+[Z g:75 h:374, C g:455 h:160, B h:418 g:0, C g:366 h:160, T g:118, h:329]
+
+Open B",Much faster to find the correct solution
+1/25/23 16:21,eas469,Elyse Stuart,"A
+T 118 329 447, S 140 253 393, Z 75 374 449
+T 118 329 447, Z 75 374 449, RV 220 193 413, F 239 178 417
+T 118 329 447, Z 75 374 449, F 239 178 417, P 317 98 415",No solution finished for either exercise to compare
+1/25/23 16:21,nps47,Nataniel Saadon,"A = 366
+S = 253 + 140
+F = 178 + 99
+R = 80 + 193
+P = 101 + 98
+B = 0",Its more direct and less likely to waste time.  
+1/25/23 16:21,eak339,Elizabeth Keith,"A
+Z 75, S 140, T 118
+O 71 146, S 140, T 118
+L 111 229, S 140, O 71 146
+RV 80 220, L 111 229, O 71 146
+S 151 291, RV 80 220, L 111 229
+P 97 317, L 111 229, S 151 291
+L 70 299, P 97 317, S 151 291
+F 99 390, L 70 299, P 97 317
+M 75 374, F 99 390, P 97 317
+B 101 418, M 75 374, F 99 390",much longer but the same conclusion
+1/25/23 16:21,aia43,Alisha Augustin,n/a,You have to add up the cost for each city you go to
+1/25/23 16:21,acm434,Aritra Majumder,"After expanding A, we choose S as it has the lowest value with f(n) = 393
+After expanding S, we choose R for the lowest f(n) value with 220 + 193 = 413
+After expanding R, we choose F, for lowest value with 415
+After expanding F, we choose P, with 417
+",Solution is A S R P B
+1/25/23 16:21,jtw72,Jon Wacker,"totals only: 
+
+[A366]
+[Z449 S393 T447]
+[Z449 R413 F417 T447]
+[Z449 C526 P415 F417 T447]
+[Z449 C526 B516 F417 T447]
+[Z449 C526 B516 B628 T447]
+[Z449 C526 B516 B628 L473] 
+I made a mistake
+","Didn't save answer, sorry"
+1/25/23 16:21,dgr39,Deeksha,"Arad;  Z(75, 374, 449) S(140, 253, 393) T(118, 329, 447); F(140+99, 178, 417) O(75+71, 380, 526) RV(",This answer is
+1/25/23 16:22,ig346,Itay Goldfarb,"A
+S (T, 118, 329, 118+329 = 447) (Z, 75, 374, 75+374=499)
+(A, 280+366 = 646) (O, 291 + 380 = 671)
+F R",here we are adding the heursistic value as well
+1/25/23 16:22,mp3626,Mounica Paladugu,"A
+S, T, Z
+F, R  --> Pick R
+P, C
+B","This used total = h + g to get the path. Here, we pick R instead of F as done in UCS."
+1/25/23 16:22,irs27,Iain Shand,"[A:0]
+[Z: 449, S: 393, T:448]
+[Z: 449, F:560, R: 566, T:448]",Slightly different
+1/25/23 16:22,dvd42,Daniel Damiano,"{A: 366} {T: 440, Z: S: 393, Z: 449} {T:440, Z: 449, F: 417 R: }","ItÕs hard to compare cause I didnÕt get to finish it, but this method seems less tedious"
+1/25/23 16:22,KTC53,Kyle Cook,Arad -> Sibiu -> Fagaras -> Bucharest,The methods split at Sibiu. A* goes the route of Fagaras and UCS goes the way of Rimnicu Vilcea
+1/25/23 16:23,cjb393,Chris Blank,"(A,0,366,366)
+(Z,75,374,449) (S,140,253,393) (T,118,329,447)
+(Z,75,374,449) (R,220,193,413) (F,239,178,417) (T,118,329,447)
+(Z,75,374,449) (P,317,98,415) (C,366,160,526) (F,239,178,417) (T,118,329,447)
+(Z,75,374,449) (B,418,0,418) (C,366,160,526) (F,239,178,417) (T,118,329,447)
+(Z,75,374,449) (B,418,0,418) (C,366,160,526) (T,118,329,447)
+dequeued B -- end
+","Didn't finish, can't compare"
+1/25/23 16:23,ayw32,Alexander Wang,"A -> [Z 75 + 374 ,S 140 + 253,T 118 + 329] -> [Z, R 393 + 80 + 193, F 393 + 99 + 178, T] -> [Z,R,F,L 447 + 111 + 244] -> ...",This answer makes more sense as it does a better job tracing which is closer based on the upcoming values and the current depth of each node.
+1/26/23 13:40,ss5277,Srija Saha,"OPEN: {A, S, T, Z, A, F, O, RV, F, S, B, P, B}. ","Using A* gives us the more optimal solution as it moves towards the goal/solution while keeping in mind the cost, compared to USC which solely cared about cost and would therefore, would not have the shortest possible route in most cases."
+1/26/23 13:42,wc495,Weijie Chen,"Open(A): 0+366
+Open(A,S): 140+253
+Open(A,S,F): 239+178
+Open(A,S,R): 220+193
+Open(A,S,R,P): 418+0",This answer is optimal while UCS seems to only consider a local maxima.
+1/26/23 13:44,kaz46,Keziah Zapanta,"A - STZ
+S - TZAFOR
+F - TZASBOR
+B - TZASOR (450)
+R - TZAFOCPS
+P - TZAFOCSBCR
+B - TZAFOCSCR (418)",A* is faster
+1/26/23 13:44,dsb89,Devin Bucak,">Sibiu 393
+>Timisoara 447
+>Zerind 449
+
+>Rimnicu Vilcea 413
+>Fagaras 417
+>Timisoara 447
+>Zerind 449
+
+>Pitesti 415
+>Fagaras 417
+>Timisoara 447
+>Zerind 449
+>Craiova 526
+
+>Fagaras 417
+>Bucharest 418
+>Timisoara 447
+>Zerind 449
+>Craiova 526
+
+>Bucharest 418
+>Timisoara 447
+>Zerind 449
+>Craiova 526
+
+Straight line path is underestimate of true distance",I had to type less but I had to think more
+1/26/23 13:44,663,Shaivil Vyas,"A - STZ
+S - TZAFOR
+F - TZASBOR
+B - TZASOR (450)
+R - TZAFOCPS
+P - TZAFOCSBCR
+B - TZAFOCSCR (418)",Last answer I had 450 as the distance this one I have 418
+1/26/23 13:45,mtm364,Mike Mariano,"Z(75 + 374), S(140 + 253), T(118 + 329)
+F(178 + 99), R(193 + 80)
+P(97 + 98), C(146 + 160)
+B(101 + 0), C(138 + 160)",A* is far more efficient and wastes less time with small cost paths that don't bring us closer to the solution
+1/26/23 13:45,dql27,Dexter Le,"[Sibiu: 393]
+[Zerind: 441]
+[Timisoara: 447]
+[Sibiu: 393, Rimnicu Vilcea: 666]
+[Sibiu: 393, Fagaras: 670]
+[Timisoara: 447, Lugoj: 802]
+[Sibiu: 393, Rimnicu Vilcea: 666, Pitesti: 861]
+[Sibiu: 393, Fagaras: 670, Bucharest: 881]
+[Zerind: 441, Oradea: 892]
+... Couldn't finish the rest. Loop through other paths and at the end, compare the costs. In this case, it will be: [Sibiu: 393, Fagaras: 670, Bucharest: 881]","For the previous exercise, I got Sibiu, Rimnicu, Pitesti, and then Bucharest as the cheapest cost path."
+1/26/23 13:45,vgm26,Victoria Mortensen,"{A, S, F} t= 1+140 2+99
+{A,S,R,P, B} t= 1+140 2+80  3+97 4+101 ",Did the first one wrong so im not sure.
+1/26/23 13:45,ebn26,Eric Nguyen,"A 0
+S (140), R (80), P (101)
+","A 0 Z (75), S(140), T(118) O (71), S(140), T(118) L (111), O (71), S(140) F (140 + 99), R(140+80), P(97)"
+1/26/23 13:48,ml3653,Michael Le,"A 0
+S(140, 1, 141), F(140+90, 2, 232), B(232+211, 3, 443)
+S(140, 1, 141), R(140+80, 2, 222), P(222+90, 3, 302), B(222+101,4,303)",It is different.
+1/26/23 13:45,naa92,Nyemike Atoh,"A(0 + 366= 366)
+T(118 + 329 = 447),S(140+253 =393),Z(75+374=449)
+F((140+99)+178=417),R((140+80)+193=413),O((140+151)+380=671),A((140+140)+366=646)
+P((140+80+97)+98=415),C((140+80+146)+160=526),S((140+80+140)+253=613)
+B((140+80+97+101)+0=418),C",it is more effiecient
+1/26/23 13:45,kmc574,Kristen Craft,"A,Z 75,377  A,T 188,329 A,S 140, 253
+S,F 99, 178 S,RV 80, 193
+RV, P 97, 98 F,B 211, 0
+P,B 101, 0
+","I ended with the same result, but this one made more sense to me"
+1/26/23 13:45,njp84,Nick Pohwat,"OPEN = [Z(75,374,449), S(140,253,393), T(118,329,447)]
+OPEN = [Z(75,374,449), F(99,178,277), R(80,193,273), T(118,329,447)]
+OPEN = [Z(75,374,449), F(99,178,277), C(146,160,306), P(97,98,195), T(118,329,447)]
+OPEN = []",It has knowledge of how far away each city is from the goal so that it could leverage that to reach a better solution.
+1/26/23 13:46,mwb77,Matthew Bauman,"A (0, 366)
+T(118,329 = 447) S(140,253 = 393) Z(75,374 = 449)
+F(140+99, 178 = 417) R(140+80, 193 = 413)
+C(140+80+146, 160 = 526) P(140+80+97, 98 = 415 )
+B(140+80+97+101, 0 = 418)","Lower cost and faster, in this instance less optimal as it travels to rimnu vilcea as it estimated cost is lower"
+1/26/23 13:46,dbc42,Deniz Cakiroglu,"Arad-[Zerind (75+374=449), Sibiu(140+253=393), Timisoara(118+329=347)]
+Arad-Sibiu(140)-[Fagaras(239+178=417), Rimnicu Vilcea(220+193=413)]
+Arad-Sibiu-Rimnicu Vilcea(220)-[Pitesti(317+98=415)]
+Arad-Sibiu-Rimnicu Vilcea-Pitesti(317)-[Bucharest (416)]
+",It was shorter
+1/26/23 13:46,mpn47,Mike Nguyen,"[Z-75+374=449, T-118+329=447, S-140+253=393], [A-280+366=646, O-291+380=671, F-233+178=411, R-220+193=413], [A-280+366=646, O-291+380=671, R-220+193=413, S-338+253=591, B-450+0=450], [A-280+366=646, O-291+380=671, S-338+253=591, B-450+0=450, C-366+160=526, S-300+253=553, P-317+98=415], [A-280+366=646, O-291+380=671, S-338+253=591, B-450+0=450, C-366+160=526, S-300+253=553, C-317+138=455, B-317+101=418]
+
+We found the path A-S-R-P-B",It takes less steps than UCS
+1/26/23 15:14,em3223,Erin McGlew,"S (393=140+253), T (447=118+329), Z (449=75+374)
+A (646= 280+366), F(), O(671=291+380)
+(not finished)",it keeps track of total distance to goal state as well
+1/26/23 13:46,kp926,Kleisi Parllaku,"Arad-   Zerind(75+374), Sibiu(140+253), Timisoara(118+329)
+Arad-Sibiu-   Fagaras (99 + 178), Rimnicu(80+193), Oradea(151 + 380)
+Arad-Sibiu(140) - Fagaras(239+178) Rimnicu(220 +193)
+Arad-Sibiu-Rimnicu(220) -  Pitesti(97+98) Cravola (146+ 160)
+Arad-Sibiu-Rimnicu-Pitesti (317) Bucharest (416)",It was shorter
+1/26/23 13:46,vnt24,Vishal Tailor,"A	O(380) S(253) T(329)
+S	F(178) RV(193)
+F	B(0)",This way costs less than uniform as it accounts for the straight-line distance and not the short-term cheapest option
+1/26/23 13:46,fa484,Fahid Abdullah,I was doing the graph in my notebook. Got down to A -> P is 415. I'm serious. I was doing it.,"UCS was smaller, i think."
+1/26/23 13:49,xf49,Xiao Fang,"[S:393, T:447, Z:449]
+[R:413, F:417, T:447, Z:449]
+[P:415, F:417, T:447, Z:449, C:526]
+[F:417, B:418, T:447, Z:449, C:526]
+[B:450, T:447, Z:449, C:526]
+[B:418, C:526, F:417, Z:449, T:447]
+B dequeue_done
+",the one use A* get better answer(and optimal)
+1/26/23 13:47,yj395,Yashasvi Jain,"A (366), Z (75), T (118), S (140)
+Z (75), T (118), S (140), O (71)
+",A _ S _ R _ P _ B
+1/26/23 13:48,ffk23,Fawzia Khan,"Open: [Arad(336), Sibiu(253), Zerind(375), Timisoara(329)]
+Open: [Sibiu(253), Zerind(375), Timisoara(329)]
+Open: [Sibiu(253)]
+Open: [Sibiu(253), Rimnicu Vilcea(193), Fagaras(178)]
+Open: [Rimnicu Vilcea(193), Fagaras(178)]
+Open: [Rimnicu Vilcea(193)]
+Open: [Rimnicu Vilcea(193), Craiova(160), Pitesti(98)]
+Open: [Craiova(160), Pitesti(98)]
+Open: [Pitesti(98), Craiova(160), Bucharest(0)]
+Open: [Craiova(160), Bucharest(0)]
+Open: [Bucharest(0)]","In my previous answer, I added the distance for all possible paths before calculating the smallest node to move forward with. While in this case, we chose the path with the lowest total path depth and huristic."
+1/26/23 13:48,ns3335,Nikhil Solani,"Arad: [366 miles left to Bucharest; 118 Timi, 140 Sibiu, 75 Zerind]
+Sibiu: [253 miles left to Bucharest; 80 RV, 99 Fagaras]
+Fagaras: [178 miles left to Bucharest; 97 Pitesti, 146 Crai.]
+Bucharist: [0 miles left to Bucharest]
+
+Since A* is a greedy algorithm, it will immediately look and compare the straight-line distance to the goal state (Bucharest). So, Arad -> Sibiu -> Fagaras -> Bucharist.","This was cheaper than UCS, since A* is greedy and took most efficient path."
+1/26/23 13:49,rm3552,Raunaq Malhotra,"OPEN list:
+Arad (d = 0, h = 366, total = 366)
+Sibiu(d= 140, h = 253, total = 393), Timisoara(d = 118, h = 329, total =447), Z
+F, S, B
+O, RV
+C, P, S
+B, C, RV","As compared to my previous answer, A* chooses the shortest path everytime but also backtracks to find the shortest path. UCS, on the other hand, doesn't always backtrack."
+1/26/23 13:49,sb4255,Salamata Bah,"OPEN = [
+depth:0, h:366, total= 366
+depth:140, h: 253, total= 393
+depth: 80, h:193 , total = 273
+depth: 97, h: 98, total = 195
+depth: 101, h:0 , total =101
+]
+
+",UCS does not always enqueue

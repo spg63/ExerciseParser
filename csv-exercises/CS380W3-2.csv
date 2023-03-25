@@ -1,0 +1,455 @@
+Timestamp,ID,Your first and last name(s),"Problem: Tracing UCS Search for the Romanian Railroad problem. 
+
+Find the shortest path from Arad to Bucharest, using Algorithm UCS. Show the OPEN list at each cycle of the algorithm. You can refer to each city by the first letter of its name. A concise way of showing your answer would be to show the name of each node as it is added to OPEN followed by its depth (cost to reach that node from the start). "
+1/25/23 15:24,tn444,Tim Nguyen,"Arad, Sibiu, Rimnicu Vilcea, Pitesti, Bucharest"
+1/25/23 15:32,mkp68,Mohyl Patel,"A START
+Z 75
+T 118
+S 140
+R 220
+P 317
+B 418"
+1/25/23 15:30,rmf323,Reed Fleming,"T-0, T - 1, Z-1. O-2, S-1, L-2, RV-3, S-3, M-3, P-3, F-4, D-4, B-5 - optimal is A - S - RV - P - P - B"
+1/25/23 15:31,ji328,Josephina Im,"A 0
+Z (75), S(140), T (118)
+O (71), S(140), T (118)
+L (111), O (71), S (140)
+F (140+99), R (140+80)"
+1/25/23 15:31,nps47,Nataniel Saadon,"Arad
+T, S, Z
+T, S, O
+L, S, O
+O, R, F
+P, C, F"
+1/25/23 15:31,mi374,Michael Ibrahim,"{Arad}
+{Zerind 75, Timisoara 118, Sibiu 140}
+{Oradea 71}
+{Lugoj 111}
+{Rimicu Vilcea 80, Fagaras 99}
+{Pitesti 97}
+{Bucharest 211}
+{Bucharest 101}"
+1/25/23 15:31,cth59,Cole Hoener,"A, ZST, OST, OSL, OFRL, OPCL, ..."
+1/25/23 15:31,ada77,Abby Adeola,"A        0
+S        140
+T        118
+Z        75
+T        146
+L        229
+F        239
+R        220
+C        336
+P        317
+M       299"
+1/25/23 15:32,hlp54,Ken Pham,"open = [arad]
+close = []
+
+open = [zerind, sibiu, timisoara]
+close = [arad]
+
+open = [sibiu, timisoara, oradea]
+close = [arad, zerind]
+
+open = [sibiu, oradea, lugoj]
+close = [arad, zerind, timisoara]
+
+open = [oradea, lugoj, fagaras, rimnicu vilcea]
+close = [arad, zerind, timisoara, sibiu]"
+1/25/23 15:32,irs27,Iain Shand,"[A:0] 
+[Z:75, S:140, T:118]
+[ S:140, T:118, O:146]
+[T:118, O:146, F:239, R:220]
+[O:146, F:239, R:220, L:229]"
+1/25/23 15:32,qtn35,Mathilda Nguyen,"{arad:0}, {zerind:75, sibiu:140, Timisoara:118}, {oradea:146, ...}, {..., Lugoj:229}, {...,Fagaras:239, Simnicu Vilcea: 220,...}, {sibiu: 297,...}, {..., pitesti: 317,...}, {,...Mehadia:304} => {Fagaras:239, pitesti: 317, Mehadia:304}, {Bucharest:450, pitesti: 317, Mehadia:304},  {Bucharest:450, Bucharest: 428} ===> arad, sibiu, rimnicu, pitesti, bucharest?"
+1/25/23 15:32,atb87,Andrew Bui,"A
+TSZ
+TSO
+LSO
+LRFO
+LCPFO
+MCPFO"
+1/25/23 15:32,cjb393,Chris Blank,"(A,0) - expand A
+(Z,75);(T,118);(S,140) - expand Z
+(O,146);(T,118);(S,140) - expand T
+(L,188);(O,146);(S,140) - expand S
+(R,220);(F,239);(L,229);(O,146) - expand O
+(R,220);(F,239);(L,229) - expand R
+(P,317);(C,366);(F,239);(L,229) - expand L
+(P,317);(C,366);(F,239);(M,299) - expand F
+(P,317);(C,366);(B,450);(M,299)...etc."
+1/25/23 15:32,jad553,Joshua Derikito,"A0
+S1, Z1, T1
+S1, O2, T1
+S1, O2, L2
+F2, R2, O2, L2
+F2, R2, O2, L2
+F2, C3, P3, O2, L2"
+1/25/23 15:32,ht377,Harshil Thakur,"Arad
+
+Zerind.        Sibiu        Timisoara
+
+O                     T                               S
+
+O                     L                          S
+
+O                    L                          R
+
+"
+1/25/23 15:32,ayw32,Alexander Wang,"A -> [Z,S,T] -> [T,S,O] -> [L,S,O] -> [L,F,R,O] -> [L,F,R,S]"
+1/25/23 15:32,eas469,Elyse Stuart,"[A]
+[T 118, S 140, Z 75]
+[T 118, S 140, O 146]
+[L 229, S 140, O 146]
+[L 229, RV 220, F 239, O 146]
+[L 229, RV 220, F 239, S 297]"
+1/25/23 15:32,dgr39,Deeksha,"Arad
+ZST
+OST
+LSO
+LFO
+"
+1/25/23 15:32,cel334,Chance Leed,"1. A - 0
+2. S - 140, T-118, Z-75
+3. S - 140, T-118, O-146
+4. RV - 220, T-118, O-146
+5. RV - 220, T-118, O-146"
+1/25/23 15:32,ww398,Wanzhen Wen,A->Z->t>S>F>B
+1/25/23 15:32,np657,Nikhil Parakh,"OPEN = [A(0)]
+CLOSED = [ ]
+
+OPEN = [Z(75), S(140), T(118)]
+CLOSED = [A(0)]
+
+OPEN = [S(140), T(118), O(146)]
+CLOSED = [A(0), Z(75)]
+
+OPEN = [S(140), O(146), L(188)]
+CLOSED = [A(0), Z(75), T(118)]"
+1/25/23 15:32,jtw72,Jon Wacker,"[A0]
+[Z75 T118 S140]
+[O71 T118 S140]
+[071 S140 L111]
+[Z75 S140 L111]
+"
+1/25/23 15:32,eak339,Elizabeth Keith,"A 
+T 118,S 140,Z 75
+T,S,O
+L,S,O
+O,R, F
+P,C,F"
+1/25/23 15:32,oc76,Omri Chashper,"Initial:
+OPEN = [Arad]
+
+Step 1:
+OPEN = [Zerind, Sibiu, Timisoara]
+
+Step 2:
+OPEN = [Sibiu, Timisoara, Oradea]
+
+Step 3:
+OPEN = [Sibiu, Oradea, Lugoj]
+
+Step 4:
+OPEN = [Sibiu, Oradea, Lugoj]
+
+Step 5:
+OPEN = [Sibiu, Lugoj]
+
+Step 6:
+OPEN = []"
+1/25/23 15:32,ig346,Itay Goldfarb,"A
+ZST
+Z
+TSO
+T
+L
+LSO
+S
+FLO
+O
+
+"
+1/25/23 15:32,jd3622,Jack Durgin,"Arad 0 C
+
+Zerind 75
+Timisoara 118
+Sibiu 140
+
+Oradea 146
+
+Lugoj 299
+
+Rimnicu Vilcea 220
+Fagaras 239
+
+Sibiu 297
+
+Craiova 366
+Pitesti 317"
+1/25/23 15:32,dvd42,Daniel Damiano,"{A:0} {Z:75, S:140, T:118} {S:140, T:119, O:146} {L: 229, O: 146, S:140} {R: 220, F: 259} {F:259, C: 366, P: 317} {B: 470, C: 366, P: 317} {}"
+1/25/23 15:32,rv424,Richard Vo,"A
+Z, S, T
+O, S, T
+O, S, L
+O, R, F
+P, C, F
+"
+1/25/23 15:33,aia43,Alisha Augustin,"Arad
+Timisoara,Zerind Sibiu
+Lugoj, Rimnicu Vilcea, Fagaras"
+1/25/23 15:33,acm434,Aritra Majumder,"Arad(T S Z)
+Sibiu ( F, R)
+
+"
+1/25/23 15:33,mp3626,Mounica Paladugu,"A,
+T, S, Z, 
+T, S, O,
+S, O, L, 
+O, R, F,
+F, P, B
+"
+1/25/23 15:33,hz436,Hengrui Zhou,"[A]
+[A, Z]
+[A, T]
+[A, S]
+[A, S, R]
+[A, S, R, P]
+[A, S, R, P, B]"
+1/26/23 13:01,ss5277,Srija Saha,"OPEN: {A(0), Z(75), O(146), T(118), L(229), M(299), D(), C(), P(), R(), S(), F(), B()}"
+1/26/23 12:59,nt556,Nikolay Tokarenko,"(Z, 75), (O, 146), (T, 118), (L, 229), (M, 299), (D, 374), (C, 494), (P, 632), (B, 733) "
+1/26/23 13:10,xf49,Xiao Fang,"step1: [Z: 75, T:118, S:140],
+step2: [T: 118, S: 140, O: 146],
+step3: [S: 140, O: 146, L: 229],
+step4: [O: 146, R: 220, L: 229, F:239],
+step5: [R: 220, L: 229, F:239],
+step6: [L: 229, F:239, P: 313, C: 366],
+step7: [F:239, D:304, P: 313, C: 366],
+step8: [B: 450,D:304, P: 313, C: 366]
+find Bucharest, search done(may not be optimal)."
+1/26/23 13:02,njp84,Nick Pohwat,"OPEN = [Arad]
+OPEN = [Timisoara:118, Sibiu:140, Zerind:75]
+OPEN = [Timisoara:118, Sibiu:140, Oradea:71]
+OPEN = [Timisoara:118, Sibiu:140, Sibiu:151]
+OPEN = [Lugoj:111, Sibiu:140, Sibiu:151]
+OPEN = [Mehadia:70, Sibiu:140, Sibiu:151]
+OPEN = [Dobreta:75, Sibiu:140, Sibiu:151]
+OPEN = [Craiova:120, Sibiu:140, Sibiu:151]
+OPEN = [Rimnicu Vilcea:146, Pitesti: 138, Sibiu:140, Sibiu:151]
+OPEN = [Rimnicu Vilcea:146, Bucharest: 101, Sibiu:140, Sibiu:151]
+OPEN = []"
+1/26/23 13:04,dsb89,Devin Bucak,">Zerind 75
+>Timisoara 118
+>Sibiu 140
+
+>Timisoara 118
+>Sibiu 140
+>Oradea 146
+
+>Sibiu 140
+>Oradea 146
+>Lugoj 229
+
+>Oradea 146
+>Rimnicu Vilcea 220
+>Lugoj 229
+>Fagaras 239
+
+>Rimnicu Vilcea 220
+>Lugoj 229
+>Fagaras 239
+
+>Lugoj 229
+>Fagaras 239
+>Pitesti 317
+>Craiova 366
+
+>Fagaras 239
+>Mehadia 299
+>Pitesti 317
+>Craiova 366
+
+>Mehadia 299
+>Pitesti 317
+>Craiova 366
+>Bucharest 450
+
+>Pitesti 317
+>Dobreta 375
+>Craiova 366
+>Bucharest 450
+
+>Dobreta 375
+>Craiova 366
+>Bucharest 418
+
+>Craivo 366
+>Bucharest 418
+
+>Bucharest 418"
+1/26/23 13:06,dch77,Di Huynh,"[Zerind, 75] [Oradea, 146] [Timisoara, 118] [Lugoj, 229] [Sibiu, 297] [Mehadia, 299] [Dobreta, 374] [Rim, 377] [Pit, 474] [Craiova, 494] [Bucharest, 575]"
+1/26/23 13:09,dql27,Dexter Le,"[Zerind: 75]
+[Timisoara: 118]
+[Sibiu: 140]
+[Zerind: 75, Oradea: 146]
+[Sibiu: 140, Rimnicu Vilcea: 220]
+[Timisoara: 118, Lugoj: 229]
+[Sibiu: 140, Fagaras: 239]
+[Timisoara:118, Lugoj:181, Mehadia:256]
+[Zerind:75, Oradea:146, Sibiu:297]
+[Sibiu:140, Rimnicu Vilcea:220, Pitesti:317]
+[Zerind:75, Oradea:146, Sibiu:297, Rimnicu Vilcea:377]
+[Sibiu:140, Rimnicu Vilcea:220, Pitesti:317, Bucharest:418]"
+1/26/23 13:09,sb4255,Salamata Bah,"OPEN = [A(0), S(140), F(99), B(211)]"
+1/26/23 13:09,naa92,Nyemike Atoh,"A
+A - Z = 75 added to open
+A - T = 118 added to open
+A - S = 140 added to open
+A - Z - O = 75+71 = 146 added to open
+A - T - L = 118 +111 =229 added to open
+A - S - R = 140 + 80 = 220 added to open
+A - S - F = 140 + 99 = "
+1/26/23 13:09,vgm26,Victoria Mortensen,"1. {A(75), Z(71), O},
+2. {A(118), T(111), L(70), M(75),D(120),C(136),P(101),B}(all smaller than 140 or 151 so finds goal) (original answer, did not know you had to  adding up along the way, only looking at next node)"
+1/26/23 13:09,wc495,Weijie Chen,"Open(A) : 0
+Open(A,Z) : 75
+Open (A,T): 118
+Open( A,S): 140
+Open(A,S,R): 220
+Open(A,S,F): 239
+Open(A,S,R,P): 317
+Open(A,S,R,P,B): 418"
+1/26/23 13:09,ml3653,Michael Le,"[A = 0] --> [Z = 75] --> [O = 71] --> [S= 151] --> [RV = 80] --> [P = 97] --> [B = 101]
+
+
+A 0
+Z (75), S (140), T (118)
+O (71), S (140), T (118)
+L (111), O (71), S (140)
+F (140+99), R (140+80)
+"
+1/26/23 13:09,fa484,Fahid Abdullah,"A: [//Z:75, S:140, //T:118]
+Z: [//O:71]
+O: [S:151]
+T:[//L: 111]
+L: [//M: 70]
+M: [//D: 75]
+D: [//C: 120]
+C: [R: 146, //P: 138]
+P: [B: 101]
+B
+
+//refers to closed"
+1/26/23 13:09,kmc574,Kristen Craft,"A 0,
+( Z(75),S(140), T(118) ),
+ ( O(71), S(140), T(118) ),
+ ( L(111), O(71), S(140) ), 
+( F(140+99), R(140+80) ),
+P (97) B(211)
+B(101)
+Best path (A,S,R,P,B)"
+1/26/23 13:09,mtm364,Mike Mariano,"A(0)
+Z(75), S(140), T(118)
+O(71), S(140), T(118)
+L(111), O(71), S(140)
+F(140+99), R(140+80)
+F(140+80+97), R(140+80+146)
+F(140+80+97 + 138), F(140+80+97 + 101)"
+1/26/23 13:09,ebn26,Eric Nguyen,"A 0
+Z (75), S(140), T(118)
+O (71), S(140), T(118)
+L (111), O (71), S(140)
+F (140 + 99), R(140+80), P(97)"
+1/26/23 13:09,sv663,Shaivil Vyas,"A - TZS
+S - TZRF
+F - TZRB
+B - TZR
+
+COST : 450"
+1/26/23 13:09,kaz46,Keziah Zapanta ,"A - TZS
+Z - TSO
+O - TS
+S - TRF
+R - TFCP
+P - TFCB
+B - TFC"
+1/26/23 13:09,mpn47,Mike Nguyen,"[Z-75, T-118, S-140], [T-118, S-140, O-146], [S-140, O-146, L-229], [O-146, L-229, R-220, F-239],
+[L-229, R-220, F-239, S-297], [L-229, F-239, S-297, P-317, C-366], [F-239, S-297, P-317, C-366, M-299], [S-297, P-317, C-366, M-299, B-450]
+We have found Bucharest - B
+The path is Arad (A) - Sibiu (S) - Fagaras (F) - Bucharest (B)"
+1/26/23 13:09,dbc42,Deniz Cakiroglu,"Ar-[Zerind 75, Timisoara 118, Sibiu 140], 
+Ar-Zerind -[Ora 71] 
+Ar-Zerind -Ora-[Sib 151]
+Ar-Timisoara -[Lugoj 111]
+Ar-Timisoara -Lugoj-[Mehadia 75]
+Ar-Timisoara -Lugoj-Mehadia-[Dobreta 75]
+Ar-Timisoara -Lugoj-Mehadia-Dobreta-[Craiova 120]
+Ar-Timisoara-Lugoj-Mehadia-Dobreta-Craiova-[Rimnicu Vilcea 146, Pitesti 138]
+Ar-Timisoara-Lugoj-Mehadia-Dobreta-Craiova-Pitesti-[Rimnicu Vilcea 97, Bucharest 101]
+Ar-Timisoara-Lugoj-Mehadia-Dobreta-Craiova-Pitesti-Bucharest"
+1/26/23 13:09,kp926,Kleisi Parllaku,"
+A 0 
+Z (75), S(140), T(118)
+O(71),S(140),T(118)
+L(111),O(71),S(140)
+F(140+99), R(140+80)
+B(140 + 99 + 211) "
+1/26/23 13:14,ffk23,Fawzia Khan,"Open: [Arad(0), Zerind(75), Timisoara(118), Sibiu(140)]
+Open: [Zerind(75), Timisoara(118), Sibiu(75), Oradea(146)]
+Open: [Timisoara(118), Sibiu(140), Oradea(146)]
+Open: [Sibiu(140), Oradea(146), Lugoj(229)]
+Open: [Sibiu(140), Oradea(146), Lugoj(229), Rimnicu Vilcea(220)]
+Open: [Oradea(146), Lugoj(229), Rimnicu Vilcea(220)]
+Open: [Lugoj(229), Rimnicu Vilcea(220), Pitesti(317)]
+Open: [Rimnicu Vilcea(220), Pitesti(317)]
+Open: [Pitesti(317), Bucharest(418)]
+Open: [Bucharest(418)]"
+1/26/23 13:09,em3223,Erin McGlew,"A 0
+Z (75), S (140), T (118)
+O (71), S (140), T (118)
+L (111), O (71), S (140)
+F (140+99), R (140+80)
+"
+1/26/23 13:10,mwb77,Matthew Bauman,"A(0)
+Z(75) S(140) T(118)
+O(71) S(140) T(118)
+L(111) O(75+71) S(140)
+F(140+99) R(140 +80)
+F(140 +99) P(140+80+97)
+ETC.
+(A(0) -> S(140)->F(99)->B(211)"
+1/26/23 13:10,yj395,Yashasvi Jain,"OPEN LIST
+A (0)
+Z (75), S (140), T (118)
+O (71), S(140), T (118)
+L (111), O (71), S (140)
+F (140 + 99), R (140 + 80)
+P (220 + 97), F (140 + 99)
+"
+1/26/23 13:10,vnt24,Vishal Tailor,"
+Arad 				Open=[Zerind, 75 or Timi_oara, 118 or Sibiu,140]
+Zerind				Open=[Oradea,71]
+Oradea				Open=[Sibiu,151]
+Sibiu				Open=[Arad,140 or Rimnicu Vilcea,80 or Fagaras,99]
+Rimnicu Vilcea		Open=[P,97]
+Pitesti				Open=[B,101]
+Total:	575"
+1/26/23 13:11,ns3335,Nikhil Solanki,"OPEN:
+Arad = [75: Zerind, 118: Timisoarda]
+Zerind = [71: Oradea]
+Oradea = [151: Sibiu]
+Sibiu = [99: Fagaras, 80: RV]
+RV = [146: Craiova, 97: Pitesti]
+Pitesti = [138: Craiova, 101: Bucharist]
+
+Final path:
+Arad -> Zerind -> Oradea -> Sibiu -> RV -> Pitesti -> Bucharest (*)"
+1/26/23 13:12,rm3552,Raunaq Malhotra,"OPEN list at every stage:
+1. A(0)
+2. Z(75), S(140), T(118)
+3. O(71), S(140), T(118)
+4. L(111), S(180), F(99)
+5. RV(140+80), F(140+99)
+6. P(140+80+97), B(140+99+211)
+7. B(140+80+97+101), B(140+99+211)
+8. B(140+99+211) <-- final result"
+1/26/23 13:15,bns49,Badrudin Noor Sheikh Ali,"Open = [A(0), S(140),F(90),B(211)]"

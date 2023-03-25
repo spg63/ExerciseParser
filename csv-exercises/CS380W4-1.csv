@@ -1,0 +1,58 @@
+Timestamp,ID,Your first and last name(s),Determine the backed-up value of the root node.,"At the top level, which of the two moves should be made? Left or right?",Email Address
+2/1/23 16:22,atb87,Andrew Bui,6,left,
+2/1/23 16:23,nps47,Nataniel Saadon,6,Left,
+2/1/23 16:23,eas469,Elyse Stuart,6,Left,
+2/1/23 16:23,jtw72,Jonathan Wacker,6,Left,
+2/1/23 16:23,hlp54,Ken Pham,6,left,
+2/1/23 16:23,mfd58,Morolayo Dahunsi,6,left,
+2/1/23 16:23,hl633,Hajun Lee,6,Left,
+2/1/23 16:23,atg65,Azra Gallano,6,left,
+2/1/23 16:23,cth59,Cole Hoener,"6,2,6",Left,
+2/1/23 16:23,ht377,Harshil Thakur,6,LEft action,
+2/1/23 16:23,dvd42,Daniel Damiano,6,right,
+2/1/23 16:23,ji328,Josephina Im,6,left,
+2/1/23 16:23,np657,Nikhil Parakh,6,Left,
+2/1/23 16:23,ig346,Itay Goldfarb,6,left,
+2/1/23 16:23,aia43,Alisha Augustin,6,Left,
+2/1/23 16:23,Jzs25,Jazz Sussman Moss,6,Left (6),
+2/1/23 16:23,rv424,Richard Vo,"6, 2",Left,
+2/1/23 16:23,irs27,Iain Shand,6,left,
+2/1/23 16:23,oc76,Omri Chashper,6,Left,
+2/1/23 16:23,qtn35,mathilda nguyen,6 8 2 4 ---> 6,left,
+2/1/23 16:23,cel334,Chance Leed,6,right,
+2/1/23 16:23,ayw32,Alexander Wang,"Max: 6, 8, 2, 4; Min: 6, 2; Max: 6",left,
+2/1/23 16:23,mkp68,Mohyl Patel,6,left,
+2/1/23 16:23,ktc53,Kyle Cook,6,left,
+2/1/23 16:24,jd3622,Jack DUrgin,5,left,
+2/2/23 13:33,dql27,Dexter Le,6,Make a left,dql27@drexel.edu
+2/2/23 13:33,sk3939,Sahil Khanna,6,Left,sk3939@drexel.edu
+2/2/23 13:33,sss396,Samprati Sinha,6,left,sss396@drexel.edu
+2/2/23 13:33,Mwb77,Matthew Bauman,6,"Left and then left again, first to maximize second to minimize",mwb77@drexel.edu
+2/2/23 13:33,fa484,Fahid Abdullah,6,Left,fa484@drexel.edu
+2/2/23 13:34,dch77,Di Huynh,6,left,dch77@drexel.edu
+2/2/23 13:34,mtm364,Mike Mariano,,left,mtm364@Drexel.edu
+2/2/23 13:34,sv663,Shaivil Vyas,6,Left because it says max and the max vakue is 6,shaivil1105@gmail.com
+2/2/23 13:34,nt556,Nikolay Tokarenko,6,left,nt556@drexel.edu
+2/2/23 13:34,ajh395,Andrew Hagelthorn,6,right,ajh395@drexel.edu
+2/2/23 13:34,wc495,Weijie Chen,"H(3): [6, 8, 2, 4], H(2)=[6, 2], H(1)=6",Left,wc495@drexel.edu
+2/2/23 13:35,mpn47,Mike Nguyen,6,left,mpn47@drexel.edu
+2/2/23 13:35,ku48,Kobe Uytiepo,6,Left,ku48@drexel.edu
+2/2/23 13:35,bns49,Badrudin Sheikh,6,left,bns49@drexel.edu
+2/2/23 13:35,sb4255,Salamata Bah,6,left,sb4255@drexel.edu
+2/2/23 13:35,njp84,Nick Pohwat,6,left,njp84@drexel.edu
+2/2/23 13:35,kaz46,Keziah Zapanta,3,left,kaz46@drexel.edu
+2/2/23 13:35,rm3552,Raunaq Malhotra,6,Left,rm3552@drexel.edu
+2/2/23 13:35,as5429,Aneesh Sahu,6,left,as5429@drexel.edu
+2/2/23 13:35,yj395,Yashasvi Jain,6,left,yj395@drexel.edu
+2/2/23 13:35,ns3335,Nikhil Solanki,"Level 0: Max = 6. Level 1 Min = 6, 2. Level 2 Max = 6, 8, 2, 4. ROOT = 6","A right move, since the level 1 is search for the minimum. At the root, the child nodes have values of 6 and 2, so choosing 2 would result in the minimum instance.",nikhil.solanki@drexel.edu
+2/2/23 13:36,ml3653,Michael Le,"6 should be first row (top), 6 and 4 should be second row,  6,8,2,4 should be the third row. Numbers go from left to right",Left because out of 6 and 4. 6 is the highest out of the two nodes from second node.,ml3653@drexel.edu
+2/2/23 13:40,xf49,Xiao Fang,6,"left, left",xf49@drexel.edu
+2/2/23 13:36,ar3638,Abhash Rajbhandari,6,left,ar3638@drexel.edu
+2/2/23 13:36,naa92,Nyemike Atoh,6,left,naa92@drexel.edu
+2/2/23 13:36,dbc42,Deniz Cakiroglu,6,"Since right is 2, and 6 is bigger than 2 we choose left",dbc42@drexel.eud
+2/2/23 13:36,kp926,Kleisi Parllaku,6,"Left, because 6 is the max value and is on the left side",kp926@drexel.edu
+2/2/23 13:36,vgm26,Victoria Mortensen,1/4/08,left,vgm26@drexel.edu
+2/2/23 13:36,kmc574,Kristen Craft,6,Left,kmc574@drexel.edu
+2/2/23 13:37,ebn26,Eric Nguyen,6,"Left, Left",ebn26@drexel.edu
+2/2/23 13:38,em3223,Erin McGlew,The backed up value of the root node is 6.,Left because the max should be chosen at the top level and the options are 6 for left or 2 for right. So 6 should be chosen and we should move left at the top level.,em3223@drexel.edu
+2/2/23 13:38,vnt24,Vishal Tailor,6,left,vnt24@drexel.edu

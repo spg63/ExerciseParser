@@ -1,0 +1,56 @@
+Timestamp,Email Address,ID,Your first and last name(s),What is the optimal policy for each state?,What is the optimal value for the state of being in the upper left corner (A)? Reminder: the discount factor is 0.5.
+2/20/23 16:17,qtn35@drexel.edu,qtn35,mathilda nguyen,C,south/east
+2/20/23 16:17,hlp54@drexel.edu,hlp54,Ken Pham,East,South or East
+2/20/23 16:17,cth59@drexel.edu,cth59,Cole Hoener,East,"South or East, then East or South"
+2/20/23 16:18,jtw72@drexel.edu,jtw72,Jonathan Wacker,"A - East, B - South, C - East, D - East",0.5
+2/20/23 16:18,rv424@drexel.edu,rv424,Richard Vo,"A: South or East, B: Down, C: East, D: Done",0.25
+2/20/23 16:18,atg65@drexel.edu,atg65,Azra Gallano,"C- East, B- South, A- South, East",0.5
+2/20/23 16:19,atb87@drexel.edu,atb87,Andrew Bui,"A: East or South, B: South, C: East, D: -",0.5
+2/20/23 16:19,jad553@drexel.edu,jad553,Joshua Derikito,"C = East, B = South, A = South or East, D = Nothing",0.25
+2/20/23 16:19,jd3622@drexel.edu,jd3622,Jack Durgin,"A -> West or South, B -> south, C-> west",0.25
+2/20/23 16:19,cjb393@drexel.edu,cjb393,Chris Blank,"A - East/South, B - South, C - East, D - N/A",0.25
+2/20/23 16:19,cel334@drexel.edu,cel334,Chance Leed,"A: South or East; B: South, C: East, D:",0.5
+2/20/23 16:19,hz436@drexel.edu,hz436,Hengrui Zhou,A (south east) B(south) C(east),optimal(south east) value:0.5
+2/20/23 16:19,ji328@drexel.edu,ji328,Josephina Im,"A: SOUTH or EAST, B: SOUTH, C: EAST, D: STAY",0.5
+2/20/23 16:19,ig346@drexel.edu,ig346,Itay Goldfarb,A: south or east; B: south; C: east,0.25
+2/20/23 16:19,irs27@drexel.edu,irs27,Iain Shand,A-(S or E); B-(S); C-(E),0.5
+2/20/23 16:19,eas469@drexel.edu,eas469,Elyse Stuart,A: South/East; B: South; C: East; D: None,0.5
+2/20/23 16:19,oc76@drexel.edu,oc76,Omri Chashper,"A: South, East; B: South; C: East; D: Terminate",0.5
+2/20/23 16:19,nps47@drexel.edu,nps47,Nataniel Saadon,down right or right down,0.5
+2/20/23 16:19,np657@drexel.edu,np657,Nikhil Parakh,"A: (South, East) | B: (South) | C: (East) | D: (none)",
+2/20/23 16:20,hl633@drexel.edu,hl633,Hajun Lee,"A : {South, East}, B : {South}, C: {East}","A : {South, East} then exit, so 1 * 0.5 * 0.5 = 0.25"
+2/20/23 16:20,aia43@drexel.edu,aia43,Alisha Augustin,,0.5
+2/20/23 16:20,rmf323@drexel.edu,rmf323,reed fleming,A - Down right / Right down .5 B - Down 1 C - Right 1,A .5
+2/20/23 16:20,jzs25@drexel.edu,Jzs25,Jazz Sussman Moss,A: s or e. B: s. C: e,"A: .25, B: .5, C: .5"
+2/20/23 16:21,ayw32@drexel.edu,ayw32,Alexander Wang,"D: North, A: South, B: West, C: East",0.5
+2/20/23 16:21,tn444@drexel.edu,tn444,Tim Nguyen,?,?
+2/21/23 13:45,dsb89@drexel.edu,dsb89,Devin Bucak,"A-Right, B-Down, C-Right, D-URDONE",0.5
+2/21/23 13:45,nikhil.solanki@drexel.edu,ns3335,Nikhil Solanki,"A: {A -> C}, {A -> B}; B: {B -> D}; C: {C -> D};  ",The optimal value for the state of being at A would be 0.25. This is because there are 2 actions being done with a discount per action: (0.25)^2
+2/21/23 13:45,naa92@drexel.edu,naa92,Nyemike Atoh,"A: East,South - B:South - C:East",0.25
+2/21/23 13:50,vnt24@drexel.edu,vnt24,Vishal Tailor,"A - East or South, B - South, C - East",0.5 - gamma squared
+2/21/23 13:46,Shaivil1105@gmail.com,sv663,Shaivil Vyas,"Both, C and D and pointing towards D and A does not matter",0.5 becasue first action is free and thus the next action will have a cost and if we use the optimal policy then we have a cost of 0.5 to take for the next move. So the asnwer would be 0.5
+2/21/23 13:47,sb4255@drexel.edu,sb4255,Salamata Bah,A -> B or C (0.5); B -> D (0.75); C -> D (0.75),0.25
+2/21/23 13:47,sss396@drexel.edu,sss396,Samprati Sinha,"a=right/down?, b=down, c=right",0.5
+2/21/23 13:47,ajh395@drexel.edu,ajh395,Andrew Hagelthorn,"A -> B, C; B->D; C ->D",0.25
+2/21/23 13:48,mtm364@drexel.edu,mtm364,Mike Mariano,"A: South/East, B: South, C: East",0.5
+2/21/23 13:48,wc495@drexel.edu,wc495,Weijie Chen,"R(A,South,C)=.5, R(B,South,D)=1, R(C,East,D)=1",0.5
+2/21/23 13:48,dql27@drexel.edu,dql27,Dexter Le,"A can randomly choose B or C as the optimal policy for each sum going to D will always be 0.5. Then, if we choose B, it will always go down to maximize 1, and C will be right to maximize 1. Decay is saying that we are trying to finish the game as soon as possible",0.5
+2/21/23 13:48,ku48@drexel.edu,ku48,Kobe Uytiepo,"A can move to B or C as either state is an optimal choice to reach state D. From state B the optimal policy is South, for state C it is East. State D does not need to move ass it is a terminal state",0.5 since the first action we take is free
+2/21/23 13:49,fa484@drexel.edu,fa484,Fahid Abdullah,"A can go right or down, B goes down, C goes right",0.5
+2/21/23 13:49,sk3939@drexel.edu,sk3939,Sahil Khanna,B: South->D ; A->East(B)->South(D) A->South(C)->East(D); C:East(D),0.5
+2/21/23 13:49,dbc42@drexel.edu,dbc42,Deniz Cakiroglu,"A:[east, south], B:[south], C:[east]",0.5
+2/21/23 13:49,as5429@drexel.edu,as5429,Aneesh Sahu,"B = South, C = East, A = South or East ",0.5
+2/21/23 13:49,bns49@drexel.edu,bns49,Badrudin Sheikh,"(A, right) -> (B, down) -> D,  or (A, down) -> (C, right)->D",0.5
+2/21/23 13:49,rm3552@drexel.edu,rm3552,Raunaq Malhotra,A -> B or C (0.5); B -> D (0.75); C -> D (0.75),0.5
+2/21/23 13:49,ml3653@drexel.edu,ml3653,Michael Le,"b, c->d, a->c",0.5
+2/21/23 13:50,mpn47@drexel.edu,mpn47,Mike Nguyen,"b,c->d; a->c",0.5
+2/21/23 13:50,ebn26@drexel.edu,ebn26,Eric Nguyen ,"b, c->d, a->b",0.5
+2/21/23 13:50,ffk23@drexel.edu,ffk23,Fawzia Khan,A -> B or C (0.5); B -> D (0.75); C -> D (0.75),0.5
+2/21/23 13:50,ar3638@drexel.edu,ar3638,Abhash Rajbhandari,"A:[East, South], B:[South], C:[East]",0.5
+2/21/23 13:50,kp926@drexel.edu,kp926,Kleisi Parllaku,"A: [East, South] ; B: [South] ; C [East]",0.5
+2/21/23 13:50,yj395@drexel.edu,yj395,Yashasvi Jain,A: East/South; B: South; C: East; D: nothing,0.5
+2/21/23 13:50,vgm26@drexel.edu,vgm26,Victoria Mortensen ,A Down Right - B Down -  C Right,"To move right or down, no cost on first move and then reaches pellet at D .5"
+2/21/23 13:50,ss5277@drexel.edu,ss5277,Srija Saha,"A: A -> B -> D or A -> C -> D(0.5), B: B -> D, C: C -> D, D : D",1 * 1 + 1 * 0.5 + 1 * 0.5 
+2/21/23 13:51,xf49@drexel.edu,xf49,Xiao Fang,A: _ or _; B: _; C: _,0.5
+2/21/23 13:56,em3223@drexel.edu,em3223,Erin McGlew,"R(A,South,C)  or  R(A, Right, B)  ,  R(C, Right, D), R(B, South, D)",optimal value for A = 0.5 (first action taken is free)
+2/21/23 14:56,hashamtanveer54@gmail.com,ht369,Hasham Tanveer,"the policy is deterministic in this case, meaning that there is a unique optimal action for each state. This is because the actions are deterministic, and there is no living reward, so the optimal policy can be computed directly from the optimal value function. However, in more complex scenarios where the actions are stochastic or there is a living reward, the optimal policy may be stochastic and require more sophisticated methods to compute.",0.5

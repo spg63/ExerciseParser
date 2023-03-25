@@ -1,0 +1,59 @@
+Timestamp,Email Address,ID,Your first and last name(s),Perform three iterations of value iteration and compute and report the values for each state at each iteration. Assume that the value of all states equals zero at k=0. (discuss your guess for the optimal values and policy with your neighbors in the class)
+2/22/23 16:07,np657@drexel.edu,np657,Nikhil Parakh,
+2/22/23 16:20,cjb393@drexel.edu,cjb393,Chris Blank,"k=1: A=-1,B=7.8,C=7.8,D=10; k=2: A=7.8,B=7.8,C=7.8,D=10; k=3: A=7.8,B=7.8,C=7.8,D=10"
+2/22/23 16:20,jad553@drexel.edu,jad553,Joshua Derikito,"k = 0 (A = 0, B= 0, C=0), k = 1 (A = -1, B = 7.8, C = 7.8), k = 2(A = -1, B ="
+2/22/23 16:20,mfd58@drexel.edu,mfd58,Morolayo Dahunsi,"First iteration : A -1, B-7.8, C-7.8 Second iteration: A-"
+2/22/23 16:21,ayw32@drexel.edu,ayw32,Alexander Wang,Iteration 1: [-1 7.8 7.8] Iteration 2: [-2 7 7]
+2/22/23 16:21,ada77@drexel.edu,ada77,Abby Adeola,k=0: V(A)=V(B)=V(C)=V(D) = 0.   k=1: V(A)=0 V(B)=V(C)= 1 V(D) = 0 . k=2:  V(A)=0.5 V(B)=V(C) =1
+2/22/23 16:25,jtw72@drexel.edu,jtw72,Jonathan Wacker,"K=0, A0 B0 C0, K=1: A: -1 , B: 7.8, C: 7.8, K=2:  "
+2/22/23 16:25,atb87@drexel.edu,atb87,Andrew Bui,"0: A = 0, B = 0, C = 0; 1: A = -1, B = 7.8, C = 7.8; 2: A = 2.9, B = 8.58, C = 7.7"
+2/22/23 16:26,atg65@drexel.edu,atg65,Azra Gallano,"0: A- 0, B-0, C- 0, 1: A- -1 , B- (0.8)(+10) + (0.2)(-1) = 7.8, C- (0.8)(+10) + (0.2)(-1) = 7.8, 2: A- (0.8)(-1+(7.8*0.5)) + (0.2)(-1+(7.8*0.5)), B- (0.8)(10)+(.2)(-1 + (7.8 *0.5)), C- (0.8)(10) + (0.2)"
+2/22/23 16:26,hlp54@drexel.edu,hlp54,Ken Pham,"k = 0, A = 0, B = 0, C =0; k = 1, A = -1, B = .8(10)+.2(-1) = 7.8, C = 7.8; k = 2, A = .8(-1+3.9)+.2(-1+3.9), B = .8(10)+.2(-1 + 3.9)"
+2/22/23 16:26,mkp68@drexel.edu,mkp68,Mohyl Patel,k =0  a=0  b=0  c=0 ; k =1  a=-1  b=7.8  c=7.8; k =2  a=2.81  b=8.58  c=8.58
+2/22/23 16:26,qtn35@drexel.edu,qtn35,mathilda nguyen,"0(A=0, B=0, C=0), 1(-1, .8*10+.2*-1=7.8, 7.8), 2(.8*(-1+3.4)+.2(-1+3.4), ..., ...)"
+2/22/23 16:26,ji328@drexel.edu,ji328,Josephina Im,"K=1: A: -1, B: 7.8, C: 7.8, K=2: A: .8(-1+3.9)+.2(-1+3.9)"
+2/22/23 16:26,cth59@drexel.edu,cth59,Cole Hoener,"k=0 A=0 B=0 C=0, k=1 A=-1 B=7.8 C=7.8, k=2 A=2.9, B=8.58, C="
+2/22/23 16:26,ig346@drexel.edu,ig346,Itay Goldfarb,"A=-1, B:7.8, C:7.8; A=.8(-1+3.9)+.2*(-1*3.4)"
+2/22/23 16:26,nps47@drexel.edu,nps47,Nataniel Saadon,"{k = 0, A = 0, B = 0, C = 0} {K = 1, A = -1, B = 7.8, C = 7 .8} {k=2, A=, B=, C=,}"
+2/22/23 16:26,hl633@drexel.edu,hl633,Hajun Lee,"k =0 : A: 0, B: 0, C: 0; k = 1: A : -1, B: 0.8 * 10 + 0.2 * -1 = 7.8, C: 7.8(?); K = 2: A = 0.8 * (-1 + 3.9) + 0.2 * (-1 + 3.9), B: -8(10) + 0.2(-1 + 3.9), C: "
+2/22/23 16:26,irs27@drexel.edu,irs27,Iain Shand,Iteration 0: A=0; B=0 ; C=0. Iteration 1: A= -1; B=7.8; C=7.8. Iteration 2: A=2.9; B=8.58; C=8.58 
+2/22/23 16:26,eas469@drexel.edu,eas469,Elyse Stuart,"k0: A=0, B=0, C=0; k1: A=-1, B=0.8(10)+0.2(-1)=7.8, C=7.8; k2: A=0.8(-1+0.5*7.8)+0.2(-1+0.5*7.8), B=0.8(10)+0.2(-1+0.5*7.8), C=0.8(10)+0.2(-1+0.5*-1)"
+2/22/23 16:26,oc76@drexel.edu,oc76,Omri Chashper,"k=0: A=0, B=0, C=0; k=1:A=-1, B=7.8, C=7.8; k=2: A=2.9, B=8.58, C=8.58"
+2/22/23 16:26,rv424@drexel.edu,rv424,Richard Vo,A: 0 B:0  C: 0 D: 10  2 A: -1 B: 7.8 C: 7.8 D: 10    3: A: 8.12 B: 9.8 C: 9;8 D: 10
+2/22/23 16:26,rmf323@drexel.edu,Rmf323,Reed Fleming ,"Iteration 0 - A = 0 B / C= 0 D 10, iteration 1 - b = 7.8 c is same, iteration 2  c is "
+2/22/23 16:27,ht377@drexel.edu,ht377,Harshil Thakur,"A, B, C at k=0: 0.         A, B, C at k=1: -1, (0.8 * 10 + 0.2 * -1), (Same as B).        A, B, C at k=2: (0.8*(-1 + 3.9) + 0.2 * (-1 + 3.9)), (0.8 *(10) + 0.2* (-1 + 3.9)), (Same as B)"
+2/22/23 16:27,cel334@drexel.edu,cel334,Chance Leed,"K=1: [A: -1, B: 7.8, C: 7.8, D: 10] 2: [A: -2.32, B: 8.58, C: 7.8, D: 10] 3: [A: 0, B: 4.5, C: 4.5, D: 10]"
+2/22/23 16:27,aia43@drexel.edu,aia43,Alisha Augustin,"-1, 7.8, 7.8"
+2/22/23 16:27,dvd42@drexel.edu,dvd42,Daniel Damiano,"K=1 : A = -1, B = _.8(+10) + .2(-1) = 7.8, C = 7.8 || K=2 : A = "
+2/22/23 16:27,mp3626@drexel.edu,mp3626,Mounica Paladugu,"V0: A=0, B=0, C=0;     V1: A=-1, B=8+(-.2)=7.8, C=7.8;      V2: A=(0.8*(-1+3.9))-(0.2*(-1+3.9))= 1.74, B=(0.8*10)+(0.2*(-1+3.9))= 8.58, C=(0.8*10)+(0.2*"
+2/22/23 16:27,jzs25@drexel.edu,Jzs25,Jazz Sussman Moss,"A=7.8,B=-1,C=7.8"
+2/22/23 16:27,jd3622@drexel.edu,jd3622 ,Jack Durgin ,"(0, 0, 0), (-1, 7.8, 7.8), (2.9, 8.15, 8.05)"
+2/23/23 13:29,ajh395@drexel.edu,ajh395,Andrew Hagelthorn,A: -1 C: -3 B: -3 D: +10
+2/23/23 13:36,as5429@drexel.edu,as5429,Aneesh Sahu,"At k = 0, A = 0 B = 0 C = 0 D = 0. At K = 1, A = 0 B = 0 C = 0 D = 10. At K = 2, A = 0 B = 7(towards D) C = 7(Towards D) D = 10. At k = 3, A = 5.3(Towards C) B = 7(Towards D) C = 7.774(Towards D) D = 10. "
+2/23/23 13:33,mtm364@drexel.edu,mtm364,Mike Mariano,"A 0, B 0, C 0, D 10| A 0, B 8, C 8, D10 | A 4, B 8, C 6, D 10"
+2/23/23 13:33,Shaivil1105@gmail.com,sv663,Shaivil Vyas,"A = -1, +10, B -2, +5, C - 3, +2.5"
+2/23/23 13:34,sk3939@drexel.edu,sk3939,Sahil Khanna,Optimal value: 10; The pacman is at C. This will increase both the 80% and the 20% factor
+2/23/23 13:34,dql27@drexel.edu,dql27,Dexter Le,"A: Down(9), Right(8); B: Down(9), C: Right(9). "
+2/23/23 13:35,fa484@drexel.edu,fa484,Fahid Abdullah,"k = 1,  A: -1, B: -1, C: -1, D:+10 k = 2,  A: -1, B: 9 (Down) , C: 9 (Right), D:+10 k = 1,  A: 8 (Down), B: 9 (Down), C: 9 (Right), D:+10"
+2/23/23 13:37,vgm26@drexel.edu,vgm26,Victoria Mortensen,"1: R(B, South, D) = 10)  20% R(B, Left(-1) , A, Right (-1) (*.5), B Down (-1)(*5)) = .75 )   2:  R(C, Right, D) = 10) 3: R(A, Right (-1), B, Down D (*.5)) = 4) "
+2/23/23 13:39,ml3653@drexel.edu,ml3653,Michael Le,"At k=0, the first value iteration is 0.98, the second value iteration would be 0.87, and the third would be 0.76."
+2/23/23 13:37,ss5277@drexel.edu,ss5277,Srija Saha,"k = 0 => (A = 0, B = 0, C = 0, D = 0),k = 1 => (A = 0.5, B = 0.5, C = 0.5, D = 0.5), k = 2 => (A = 0.5, B = 0.25, C = 0.25, D = 0.75), k = 3 => (A = 0.25, B = 0.5, C = 0.5, D = 1)"
+2/23/23 13:37,wc495@drexel.edu,wc495,Weijie Chen,"R(A,South,C)=-1, R(B,South,D)=9, R(C,East, D)=9 "
+2/23/23 13:37,naa92@drexel.edu,naa92,Nyemike Atoh,"R(A,C) = -1,R(A,A) = -1, R(A,B) = -1"
+2/23/23 13:38,ku48@drexel.edu,ku48,Kobe Uytiepo,"k=1 (A= -1, B= -1, C= -1, D= +10), k=2 (A= -1, B= 4, C= 4, D= +10), k=3 (A= 1.6, B= 5.6, C= 5.6, D= +10)"
+2/23/23 13:38,kaz46@drexel.edu,kaz46,Keziah Zapanta,"R(A, South, C) = -1) R(C, East, D) = -2) R( D) = -3)"
+2/23/23 13:38,rm3552@drexel.edu,rm3552,Raunaq Malhotra,1A: -1.05; 1B: 3; 1C: -1.9; 1D: 3; 2A: -1.934; 2B: 6.88; 2C: -2.125; 2D: 5; 3A: -2.471; 3B: 8.946; 3C: -3.745; 3D: 7.64
+2/23/23 13:39,sb4255@drexel.edu,sb4255,Salamata Bah,"1A: -1.05; 1B: 3; 1C: -1.9; 1D: 3 2A: -1.934; 2B: 6.88; 2C: -2.125; 2D: 5 3A: -2.471; 3B: 8.946; 3C: -3.745; 3D: 7.64.       In the first iteration of value iteration, we start with an initial guess for the value of each state, which is zero for all states. In the second iteration, we update the values of each state based on the updated values from the first iteration. We again consider each possible action from each state and compute the expected future reward for each action.  In the third iteration, we repeat the same process as in the second iteration, but this time we use the updated values from the second iteration to compute the expected future reward. We again update the values of each state based on the maximum expected future reward for each action."
+2/23/23 13:39,ar3638@drexel.edu,ar3638,Abhash Rajbhandari,"R(C, East,D) = 9, R(B, South, D) = 9,  R(A, South, C) = 9"
+2/23/23 13:39,dbc42@drexel.edu,dbc42,Deniz Cakiroglu,"R(C, east, D) = 9, R(B, south, D)=9, R(A, south, C)=9"
+2/23/23 13:40,ffk23@drexel.edu,ffk23,Fawzia Khan,1A: -1.05; 1B: 3; 1C: -1.9; 1D: 3 2A: -1.934; 2B: 6.88; 2C: -2.125; 2D: 5 3A: -2.471; 3B: 8.946; 3C: -3.745; 3D: 7.64
+2/23/23 13:45,vnt24@drexel.edu,vnt24,Vishal Tailor,"Iteration 1 R(D, North, B) = 9)  R(D, West, C) = 9)  Iteration 2 R(D, North, B) = 9) , R(B, West, A) = 4) R(D, West, C) = 9) , R(C, North, A) = 4)  Iteration 3 Not Sure :("
+2/23/23 13:46,sss396@drexel.edu,sss396,Samprati Sinha,"(a=0.0, b=0.0, c=0.0, d =10); (a=0.0, b=3.9, c=3.9, d=10); (a=1.45, b=5.85, c=5.85, d=10)"
+2/23/23 13:46,dsb89@drexel.edu,dsb89,Devin Bucak,"A:0,B:0,C:0,D:10 ; A:0,B:3.9,C:3.9,D:10 ; A:1.45,B:5.85,C:<5.85?,D:10"
+2/23/23 14:25,kp926@drexel.edu,kp926,Kleisi Parllaku,"When k = 0 (0 iterations all the values of the states are 0.) When k = 1 the only value that changes is that of D = 10; When k = 2 we have two states that change values, C and B which will both have a value of 4 after the discount and the living reward, A = 0 and D = 10. At k = 3 (third iteration) the value of A will be 1.2 since there is also a 20 percent chance to go from C to A if we intend to go to D because C is at left angle from D and the values of C and B will be 4 while D remains 10 "
+2/23/23 16:59,mpn47@drexel.edu,mpn47,Mike Nguyen,"k=0 (A:0; B:0; C:0; D:0),  k=1 (A:-1.8; B:-1.5; C:-1.8; D:5),  k=2 (A:-3.05; B:-2.55; C:-3.05; D:7.5), k=3 (A:-4.325; B:-3.825; C:-4.325; D:8.75), Optimal policy: B to D, A to B, C to D, game ends at D"
+2/23/23 17:34,em3223@drexel.edu,em3223,Erin McGlew,"v(k+1)(s) = max(sum of T(s, a, s')[R(s,a,s')+gamma(Vk(s'))  A=.8(9)+.5(10), A = .2(9)+.5(10), B=.8(10)+.1(10), B=.1(10)+.1(10), C= .8(7)+.1(9), C=.2(10)+.1(9)"
+2/23/23 18:39,xf49@drexel.edu,xf49,Xiao Fang,"order: A,B,C,D; K=0:0,0,0,0; k=1:-1,-1,-1,10,k=2:-1.5,3,3,10;k=0.5,4.1,3.85,10"
+2/23/23 19:08,njp84@drexel.edu,njp84,Nick Pohwat,"k=0 A: 0, B: 0, C: 0, D: 0 --- k=1 A: 0, B: 0, C: 0, D: 10 --- k=2 A: 0, B: 0.72, C: 0, D: 10 --- k=3 A: 0.52, B: 0.78, C: 0.48, D: 10"
+2/23/23 19:52,ebn26@drexel.edu,ebn26,Eric Nguyen,"First iteration: R(B, South D) = 10 , Second iteration: R(A, 9)"
+2/23/23 20:12,nikhil.solanki@drexel.edu,ns3335,Nikhil Solanki,"Iteration 1: A: -1 ; B: -1; C: -1, D: +10  R(B, South, D) = 10 R(D, North, B) = 9 R(B, West, A) = 4   //  Iteration 2: A: -1 ; B: -1; C: -1, D: +10  R(B, South, D) = 10 R(D, West, C) = 9 R(C, North, A) = 4  //  Iteration 3: A: -1 ; B: -1; C: -1, D: +10  R(B, South, D) = 10 R(A, South, C) = 0 R(C, EAST, D) = 9 R(A, EAST, B) = 0  //"

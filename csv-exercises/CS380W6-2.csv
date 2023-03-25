@@ -1,0 +1,49 @@
+Timestamp,Email Address,ID,Your first and last name(s),Show the domains of the variables after running arc-consistency on this initial graph (after having already enforced any unary constraints).,Give one solution to this CSP. The solution should be to assign one person for each room based on the constraints.
+2/15/23 16:18,cjb393@drexel.edu,cjb393,Chris Blank,"C1 (C*), C2 (B), C3 (A,C), C4 (A,C), C5 (B,C)","C1-5 = C,B,A,C,B"
+2/15/23 16:19,np657@drexel.edu,np657,Nikhil Parakh,,
+2/15/23 16:19,jd3622@drexel.edu,jd3622,Jack Durgin,"C1 = C, C2 = B, C3 = AC, C4 = AC, C5 = BC","C1 = C, C2 = B, C3 = A, C4 = C, C5 = B"
+2/15/23 16:19,hlp54@drexel.edu,hlp54,Ken Pham,"C, B", 
+2/15/23 16:21,atg65@drexel.edu,atg65,Azra Gallano,"C1- C, C2- B, C3- A, C, C4- C, C5- B","C1- C, C2- B, C3-C, C4-A, C5-  B"
+2/15/23 16:19,tn444@drexel.edu,tn444,Tim Nguyen,not enough time,not enough time
+2/15/23 16:20,jad553@drexel.edu,jad553,Joshua Derikito,"A, B, C",C1
+2/15/23 16:20,ktc53@drexel.edu,ktc53,Kyle Cook,C1=C; C2=B; C3=AB; C4=AB; C5=C,C1=C; C2=B; C3=A; C4=B; C5=C
+2/15/23 16:20,chance.higayon@gmail.com,cel334,Chance Leed,"C1 = C, C2 = B, C3=AC, C4=AC, C5=B","C1 = C, C2 = B, C3=A, C4=C, C5=B"
+2/15/23 16:21,qtn35@drexel.edu,qtn35,mathilda nguyen ,...,prof A teach class 4; prof B teach class 5; prof C teach 1 2 3
+2/15/23 16:21,ht377@drexel.edu,ht377,Harshil Thakur,Class C2 -> Prof B.           Class C3 -> Prof A and C.              Class C4 -> Prof ,
+2/15/23 16:21,mkp68@drexel.edu,mkp68,Mohyl Patel,"b,c",
+2/15/23 16:21,rv424@drexel.edu,rv424,Richard Vo,"C1 = C; C2 = B; C3 = A, C; C4 = A, C; C3 = A; C4 = C; C5 = B",C1 = C; C2 = B; C3 = A; C4 = C; C5 = B
+2/15/23 16:21,aia43@drexel.edu,aia43,Alisha Augustin,"A,C",
+2/15/23 16:21,nps47@drexel.edu,nps47,Nataniel Saadon,C1 != B,Not sure
+2/15/23 16:21,jtw72@drexel.edu,jtw72,Jonathan Wacker,"C1: C, C2: B C3: AC, C4: AC, ",n/a
+2/15/23 16:21,ji328@drexel.edu,ji328,Josephina Im,"C1 - C, C2-B",C1
+2/15/23 16:21,eas469@drexel.edu,eas469,Elyse Stuart,"C1: C; C2: B; C3: A, C; C4: ?; C5: ?",?
+2/15/23 16:21,hl633@drexel.edu,hl633,Hajun Lee,"C1 : {C}, C2 : {B}, C3 : {A, C}, C4 : {A, C}, C5 : {C}","C1 : {C}, C2 : {B}, C3 : {A, C}, C4 : {A, C}, C5 : {C}"
+2/15/23 16:21,atb87@drexel.edu,atb87,Andrew Bui,"C1 - C; C2 - B; C3 - A,C; C4 - A,C; C5 - B,C","C1 - C, C2 - B, C3 - A, C4 - C, C5 - B"
+2/15/23 16:21,irs27@drexel.edu,irs27,Iain Shand,"C1:C, C2:B, C3:A, C4:C, C5:B",
+2/15/23 16:21,ig346@drexel.edu,ig346,Itay Goldfarb,"ABC, BC, AC","Professor A = 1,3; Professor C = 2,3"
+2/15/23 16:22,ayw32@drexel.edu,ayw32,Alexander Wang,"A:3, B:2,5, C:1,3","A:3, B:4, C:5"
+2/15/23 16:22,oc76@drexel.edu,oc76,Omri Chashper,"C1: C, C2: B, C3: A, C4: A, C5: B","C1: C, C2: B, C3: A, C4: A, C5: C"
+2/16/23 13:19,ajh395@drexel.edu,ajh395,Andrew Hagelthorn,"C1-C, C2-B(C already did C1), C3-A,C(Just did B), C4-CA(Depends on C3), C5-B)","C1 C, C2 B, C3 A, C4 C, C5 B"
+2/16/23 13:30,wc495@drexel.edu,wc495,Weijie Chen,"C1:C, C2:B, C3:[A,C], C4:[A,B,C], C5:[B,C]","C1:C, C2:B, C3:A, C4:B, C5:C "
+2/16/23 13:32,ss5277@drexel.edu,ss5277,Srija Saha,"(C1 - C, C2 - B, C3 - A, C4 - C, C5 - B) or (C1 - C, C2 - B, C3 - C, C4 - A, C5 - B)",We can apply forward checking algorithm to make sure that all our constraints are being adequately met.
+2/16/23 13:26,njp84@drexel.edu,njp84,Nick Pohwat,"C1 - C; C2 - B; C3 - A,C; C4 - A,C; C5 - B,C","C1 - C, C2 - B, C3 - A, C4 - C, C5 - B"
+2/16/23 13:31,sk3939@drexel.edu,sk3939,Sahil Khanna,"C1: C -> C2: B; C3: A; C4: C; C5:B,C",C1: C; C2: B; C3: A; C4: C; C5: B
+2/16/23 13:29,naa92@drexel.edu,naa92,Nyemike Atoh,C1 = C;C2 = AB ; C3 = ABC; C4 = ABC; C5 = A,C1 = C;C2 = B; C3 = A;C4 = C;C5 = B
+2/16/23 13:30,sss396@drexel.edu,sss396,Samprati Sinha,"C1: C; C2: B; C3: A, C; C4: A,B, C; C5: B,C",C1: C; C2: B; C3: A; C4: C; C5: B
+2/16/23 13:31,mtm364@drexel.edu,mtm364,Mike Mariano,"C1 C, C2 B, C3 A C, C4 A C, C5 B","C1 C, C2 B, C3 A, C4 C, C5 B"
+2/16/23 13:31,fa484@drexel.edu,fa484,Fahid Abdullah,"C1: C, C2: B, C3: AC, C4: CA, C5: B","C1: C, C2: B, C3: A, C4: C, C5: B"
+2/16/23 13:31,dsb89@drexel.edu,dsb89,Devin S. Bucak,"InC# order: C, B, CA, CA, B ??????","In C# order: C, B, C, A, B"
+2/16/23 13:31,ku48@drexel.edu,ku48,Kobe Uytiepo,"C1[C], C2[B], C3[A,C], C4[A,C], C5[B,C]","C1(C), C2(B), C3(A), C4(C), C5(B)"
+2/16/23 13:32,as5249@drexel.edu,as5429,Aneesh Sahu,"C1: C; C2: B; C3: A,C ; C4: A,C; C5: A,B,C","C1 = C, C2 = B, C3 = A, C4 = C, C5 = B"
+2/16/23 13:32,dql27@drexel.edu,dql27,Dexter Le,"C1: C, C2: B, C3: AC, C4: AC, C5: B","C1: C, C2: B, C3: A, C4: C, C5: B"
+2/16/23 13:32,dbc42@drexel.edu,dbc42,Deniz Cakiroglu,"C1:[C], C2:[B], C3:[A,C], C4:[A,C], C5:[B,C]",Prof c can teach c1 and c3 prof a can teach c4 prof b can teach c2 and c5
+2/16/23 13:32,kp926@drexel.edu,kp926,Kleisi Parllaku,"C1 (C); C2(B); C3(A,C); C4(A, C); C5(B, C)",Prof C -> C1 and C3 | Prof A -> C4 | Prof B -> C2 and C5
+2/16/23 13:32,vgm26@drexel.edu,vgm26,Victoria Mortensen,"C1 = C , C2 = , C3 = AC,  C4 = AC , C5=","A = c4,  B= c2, c5  C= c1, c3"
+2/16/23 13:32,mpn47@drexel.edu,mpn47,Mike Nguyen,"C1: C ; C2: B ; C3: A, B, C ; C4: A, B, C ; C5: B, C",C1: C ; C2: B ; C3: C ; C4: A ; C5: B
+2/16/23 13:34,ml3653@drexel.edu,ml3653,Michael Le,"C1 =C, C2 = B, C3 =C, C4= A, C5 = B.",C1=C
+2/16/23 13:33,xf49@drexel.edu,xf49,Xiao Fang,"C1: C, C2: BA, C3: BC, C4: ABC, C5: AB","C1: C, C2: B, C3: C, C4: A, C5: B"
+2/16/23 13:34,ebn26@drexel.edu,ebn26,Eric Nguyen,"C1 = C, C2 = B, C3 = A AND C, C4 = ALL 3, C5 = B AND C","C1 = C, C2 = B, C3 = C, C4 = A, C5 = B. Other solution where C3 and C4 is switched"
+2/16/23 13:34,nikhil.solanki@gmail.com,ns3335,Nikhil Solanki,"{C1, C}, {C2, B} {C2, C}, {C3, A} {C3, B} {C3, C}, {C4, A} {C4, B} {C4, C}, {C5, B}, {C5, C}","C1 = C, C2 = B, C3 = C, C4 = A, C5 = B. Either C3 or C4 is a solution state."
+2/16/23 13:36,yj395@drexel.edu,yj395,Yashasvi Jain,"C1 - C; C2 - B; C3 - A, C: C4 - A, C; C5 - B, C",C1 - C; C2 - B; C3 - A; C4 - C; C5 - B
+2/16/23 13:43,bns49@drexel.edu,bns49,Badrudin Sheikh,"c1 = c, c2 = b, c3 = a, b ,c, c4 = a,b,c c5 = b,c","C1 = C, C2 = B, C3 = C, C4 = A, C5 = B"
+2/16/23 13:48,em3223@drexel.edu,em3223,Erin McGlew,"C1 - C,  C2 - B,  C3 - A/C, C4 - A/C, C5 - B/C","C1 = C, C2 = B, C3 = A, C4 = C, C5 = B. (another possible solution is where C3 and C4 are switched)"

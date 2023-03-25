@@ -1,0 +1,62 @@
+Timestamp,ID,Your first and last name(s),Which of the nodes get pruned in the graph below? ,Email Address
+2/6/23 15:57,atb87,Andrew Bui,"4, 7, 8",atb87@drexel.edu
+2/6/23 15:58,ayw32,Alexander Wang,"6,8,7,2",ayw32@drexel.edu
+2/6/23 15:52,Jzs25,Jazz Sussman Moss,"4,8",jzs25@drexel.edu
+2/6/23 15:57,atg65,Azra Gallano,"Numbers 4, 7, 8",atg65@drexel.edu
+2/6/23 15:53,rmf323,Reed Fleming,4 and 8,rmf323@drexel.edu
+2/6/23 15:53,nps47,Nataniel Saadon,5 7 1 3,nps47@drexel.edu
+2/6/23 15:55,tn444,Tim Nguyen,"4, 6, 7, 8",tn444@drexel.edu
+2/6/23 15:57,cjb393,Chris Blank,"4, 7, 8",cjb393@drexel.edu
+2/6/23 15:57,rv424,Richard Vo,"4, 7, 8",richardphong1@gmail.com
+2/6/23 15:57,jad553,Joshua Derikito,"4, 7, 8",jad553@drexel.edu
+2/6/23 15:57,hlp54,Ken Pham,"nodes 5,6,7,8 can be pruned because all values are lower than values from nodes 1-4",hlp54@drexel.edu
+2/6/23 15:57,mi374,Michael Ibrahim,"4, 7, 8 should get pruned.",mi374@drexel.edu
+2/6/23 15:57,hl633,Hajun Lee,"4, 7, 8",ihazun01@gmail.com
+2/6/23 15:57,jd3622,Jack Durgin,"4, 7, 8",jd3622@drexel.edu
+2/6/23 15:58,qtn35,Mathilda nguyen,"out is Utility 6. Pruned: 4, 7, 8",qtn35@drexel.edu
+2/6/23 15:58,dvd42,Daniel Damiano,"4, 7, 8",dvd42@drexel.edu
+2/6/23 15:58,cel334,Chance Leed,"Nodes #: [4,7,8]",cel334@drexel.edu
+2/6/23 16:01,np657,Nikhil Parakh,"4,7,8",np657@drexel.edu
+2/6/23 16:01,jtw72,Jonathan Wacker,"4, 7, 8",jtw72@drexel.edu
+2/6/23 16:01,ji328,Josephina Im,"4,8,7",ji328@drexel.edu
+2/6/23 16:01,eas469,Elyse Stuart,"4, 7, 8",eas469@drexel.edu
+2/6/23 16:01,oc76,Omri Chashper,"4, 7, 8 (By Node Number)",oc76@drexel.edu
+2/6/23 16:02,ig346,Itay Goldfarb,"4,8,7",ig346@drexel.edu
+2/6/23 16:02,aia43,Alisha Augustin,"Number 2, 8",aia43@drexel.edu
+2/6/23 16:03,ht377,Harshil Thakur,"Node Number: 4, 7, 8",ht377@drexel.edu
+2/6/23 16:03,irs27,Iain Shadn,"4, 7, 8",irs27@drexel.edu
+2/6/23 16:39,cgg38,Chris Gautreau,1 and 7 get pruned,cgg38@drexel.edu
+2/7/23 13:19,sk3939,Sahil Khanna,"5,6",sk3939@drexel.edu
+2/7/23 13:32,ku48,Kobe Uytiepo,"Nodes 4,7,8",ku48@drexel.edu
+2/7/23 13:26,dsb89,Devin Bucak,Nodes 6 and 8 (utilities 1 and 3) get pruned after 5 and 7 do not match up to the 8 provided after exploring the left half of the tree. waait im an idiot,dsb89@drexel.edu
+2/7/23 13:28,xf49,Xiao Fang,"4, 7, 8",xf49@drexel.edu
+2/7/23 13:21,mwb77,Matthew Bauman,"5,6,7,8",mwb77@drexel.edu
+2/7/23 13:31,wc495,Weijie Chen,"4,7,8",wc495@drexel.edu
+2/7/23 13:21,sss396,Samprati Sinha,"nodes 4, 6, 8 ",sss396@drexel.edu
+2/7/23 13:21,fa484,Fahid Abdullah,"2,3,4,6,7,8",fa484@drexel.edu
+2/7/23 13:31,mpn47,Mike Nguyen ,"4, 7, 8",mpn47@drexel.edu
+2/7/23 13:23,ffk23,Fawzia Khan,"4, 3, 7 ",ffk23@drexel.edu
+2/7/23 13:23,naa92,Nyemike Atoh,"1,3,4,5,6,7,8",naa92@drexel.edu
+2/7/23 13:32,dch77,Di Huynh,"7, 4, 3",dch77@drexel.edu
+2/7/23 13:25,nt556,Nikolay Tokarenko,"7, 3",nt556@drexel.edu
+2/7/23 13:28,mtm364,Mike Mariano,"nodes 1,2,3,5,6 get explored, 4,7,8 get pruned",mtm364@drexel.edu
+2/7/23 13:28,njp84,Nick Pohwat,"Nodes 7, 1, 4, and 3 will get pruned. The top node will be 6.",njp84@drexel.edu
+2/7/23 13:28,vgm26,Victoria Mortensen,"4,7,8",vgm26@drexel.edu
+2/7/23 13:28,bns49,Badrudin Sheikh,"4, 1, 7, 3",bns49@drexel.edu
+2/7/23 13:28,as5429,Aneesh Sahu,"4,7,8",as5429@drexel.edu
+2/7/23 13:28,kaz46,Keziah Zapanta,"4, 7, 8",kaz46@drexel.edu
+2/7/23 13:29,sb4255,Salamata Bah,"8,7,4,3  ==>max is 6 , prune nodes 8,7. Max is 2, prune nodes 4,3. Max will always choose 6",sb4255@drexel.edu
+2/7/23 13:29,sv663,Shaivil Vyas,"4, 7, 8",shaivil1105@gmail.com
+2/7/23 13:30,yj395,Yashasvi Jain,"3, 4, 7, 8",yj395@drexel.edu
+2/7/23 13:31,ar3638,Abhash Rajbhandari,"4,7,8",ar3638@drexel.edu
+2/7/23 13:31,ebn26,Eric Nguyen,"Node number 4, 7,  8",ebn26@drexel.edu
+2/7/23 13:31,kp926,Kleisi Parllaku,"Numbers of nodes: 4,7,8",kp926@drexel.edu
+2/7/23 13:32,ml3653,Michael Le,"The nodes that get pruned in the graph are: 4,7,8. ",ml3653@drexel.edu
+2/7/23 13:32,ss5277,Srija Saha,"4, 7, 8, ",ss5277@drexel.edu
+2/7/23 13:32,dql27,Dexter Le ,"3, 4, 7, 8",dql27@drexel.edu
+2/7/23 13:32,kmc574,Kristen Craft,"prune node 4, then prune nodes 7 and 8. ",kmc574@drexel.edu
+2/7/23 13:32,vnt24,Vishal Tailor,"4,7,8 might prune 6 too",vnt24@drexel.edu
+2/7/23 13:32,em3223,Erin McGlew,"Nodes 4, 7, 8 get pruned in the graph. ",em3223@drexel.edu
+2/7/23 13:32,ns3335,Nikhil Solanki,"4, 6, 8",nikhil.solanki@drexel.edu
+2/7/23 16:46,ajh395,Andrew Hagelthorn,The right side descending after node 2,ajh395@drexel.edu
+2/8/23 16:22,ra697,Rahul Ajit,"5,7,1,3,8,2,4",ra697@drexel.edu

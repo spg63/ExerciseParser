@@ -1,0 +1,39 @@
+Timestamp,ID,Your first and last name(s),"(0,0)","(1,0)","(0,1)","(2,0)","(0,2)","(2,1)","(1,2)","(2,2)","(3,0)",Email Address
+3/1/23 16:15,qtn35,mathilda nguyen,woah,,,,,,,,,qtn35@drexel.edu
+3/1/23 16:16,Jzs25,Jazz Sussman Moss,2,2,2,1,3,0,2,1,1,jzs25@drexel.edu
+3/1/23 16:18,np657,Nikhil Parakh,,,,,,,,,,np657@drexel.edu
+3/1/23 16:19,rv424,Richard Vo,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,rv424@drexel.edu
+3/1/23 16:20,jad553,Joshua Derikito,0,-0.2,0,0,0,0,1,0.2,-0.2,jad553@drexel.edu
+3/1/23 16:20,atg65,Azra Gallano,,,,,,-0.2 (right),,"0.2 (right), ",,atg65@drexel.edu
+3/1/23 16:20,ht377,Harshil Thakur,,,,,,0,0.2,,,ht377@drexel.edu
+3/1/23 16:20,mkp68,Mohyl Patel,,,,,,-0.2 right,0.2 right,0.2 right,-0.2 up,mkp68@drexel.edu
+3/1/23 16:20,ji328,Josephina Im,,,,,,-0.2 (ep1),,0.2(ep2),,ji328@drexel.edu
+3/1/23 16:21,mfd58,Morolayo Dahunsi,-2,2,3,1,,,,,,mfd58@drexel.edu
+3/1/23 16:21,hlp54,Ken Pham,0,0,0,0,0,1.2,0,0.2,1.2,hlp54@drexel.edu
+3/1/23 16:22,cjb393,Chris Blank,"L, D, R, U = 0, 0, 0.2, 0.2","L, D, R, U = 0, 0, 0.2, 0","L, D, R, U = 0, 0, 0, 0.2","L, D, R, U = 0, 0, 0.2, -0.2","L, D, R, U = 0, 0, 0.2, 0","L, D, R, U = 0, 0, -0.4, 0.4","L, D, R, U = 0, 0, 0.2, 0","L, D, R, U = 0, -0.2, 0.4, 0","L, D, R, U = 0, 0, 0, -0.2",cjb393@drexel.edu
+3/1/23 16:22,cel334,Chance Leed,0,0,0,0,0,-0.3,0.1,0.3,0,cel334@drexel.edu
+3/1/23 16:22,jd3622,Jack Durgin,0,0,0,0,0,-0.2,0.04,0.2,0,jd3622@drexel.edu
+3/1/23 16:22,hl633,Hajun Lee,,,,,,r : -0.2,r : 0.18,r : 0.2,,hl633@drexel.edu
+3/1/23 16:22,dvd42,Daniel Damiano,,,,,,,,,,dvd42@drexel.edu
+3/1/23 16:22,aia43,Alisha Augustin,0,0,0,0,0,1,0,3,0,aia43@drexel.edu
+3/1/23 16:22,nps47,Nataniel Saadon,-2,pain,,,,,,,,nps47@drexel.edu
+3/1/23 16:22,jtw72,Jonathan Wacker,"See video, this will be on exam",,,,,-.2 after first episode,,0.2,,jtw72@drexel.edu
+3/1/23 16:23,atb87,Andrew Bui,,,,,,,,,,atb87@drexel.edu
+3/1/23 16:23,eas469,Elyse Stuart,,,,,,"-0.2 (ep 1), (0.8)(-0.2) + 0.2(-1) = -0.36 (ep 3)",,"0.2 (ep 1), (0.8)(0.2) + 0.2(1) = 0.36 (ep 4)",,eas469@drexel.edu
+3/1/23 16:24,hz436,Hengrui Zhou,"(0,0)","(0,0)->(1,0)","(0,0)->(0,1)","(0,0)->(1,0)->(2,0)","(0,0)->(0,1)->(0,2)","(0,0)->(1,0)->(2,0)->(2,1)","(0,0)->(0,1)->(0,2)->(1,2)","(0,0)->(0,1)->(0,2)->(1,2)->(2,2)","(0,0)->(1,0)->(2,0)->(3,0)",hz436@drexel.edu
+3/2/23 13:21,ajh395,Andrew Hagelthorn,0,0.1,0.1,0.2,0.2,0.25,0.25,0.25,0.3,ajh395@drexel.edu
+3/2/23 13:43,ht369,Hasham Tanveer,1,2,0,3,1,1,2,3,0,hashamtanveer54@gmail.com
+3/2/23 18:56,vgm26,Victoria Mortensen,0,,,,,R: -.18  R? : -.294,R: .0324,R:.18 D:.1476 ,(Got to episode 4 but got confused on which Q values relaced who and which direction value of Q i would use in the equation),vgm26@drexel.edu
+3/2/23 20:12,xf49,Xiao Fang,up and right: 0.000209952; other are 0.,right is 0.0011664; other are 0.,up is 0.0011664; other are 0.,"up is 0.00648, right is -0.00648; other are 0.",right is 0.00648; other are 0.,"up is 0.036, right is -0.2; other are 0.",right is 0.036; other are 0.,"right is -0.2, down is -0.036; other are 0.",up is -0.2; other are 0.,xf49@drexel.edu
+3/2/23 21:00,ebn26,Eric Nguyen,0.1,0,0.1,0.1,0.1,0.1,0,0.1,0.2,ebn26@drexel.edu
+3/2/23 21:08,mtm364,Mike Mariano,"(.45, .4, .5, .4) UP","(.45, .4, .4, .4) LEFT","(.5, .5, .6, .4) UP","(.6, .7, .6, .5) RIGHT","(.5, .5, .6, .4) UP","(.5, -.6, .6, .3) UP","(.6, .75, .65, .65) RIGHT","(.65, .85, .75, .55) RIGHT","(.3, .1, -.65, .25) LEFT",mtm364@drexel.edu
+3/2/23 21:46,sv663,Shaivil Vyas,"up - 0, down - 0.008, left - 0, right - 0.008. Optimal move = Right, down","up - 0.064, down - 0, left - 0, right - 0.032. Optimal move = Right","up - 0.008, down - 0.032, left - 0.008, right - 0.004. Optimal move = Down","up - 0.16, down - 0, left - 0, right - 0.008. Optimal move = Right","up - 0.016, down - 0.128, left - 0.032, right - 0.008. Optimal move = Down","up - 0.4, down - 0, left - 0.16, right - 0.4. Optimal move = Up","up - 0.8, down - 0, left - 0, right - 0. Optimal move = Up","up - 4, down - 0.8, left - 1.28, right - 2.56. Optimal move = Right","up - 0, down - 0, left - 0, right - 0.2. Optimal move = Right",shaivil1105@gmail.com
+3/2/23 22:35,fa484,Fahid Abdullah,"Q(s, right) = Q(s, up) = 0.000209952. Best move is right or up","Q(s, right) = 0.0011664. Best move is right","Q(s, right) = 0.0011664. Best move is right","Q(s,right) = -0.036, Q(s,up) = 0.00648. Best move is up","Q(s,right) = 0.00648. Best move is right","Q(s,right) = -0.2, Q(s,up) = 0.036. Best move is up","Q(s,right) = 0.036. Best move is right","Q(s,right) = 0.2. Best move is right","Q(s,up) = -0.2. Best move is up",fa484@drexel.edu
+3/2/23 23:30,em3223,Erin McGlew,"Note: I used the formula Q(s,a) <- (1-alpha)Q(s,a) + alpha(R(s,a,s')+discount(maxQ(s',a')) to compute updated Q-values.. right: -.181, left: 0, down: 0, up: .088, move with best Q-value: up","right: -.004, left: 0, down: 0, up: -.2, move with best Q-value: left","right: 0, left: 0 , down: 0 , up: .1968, , move with best Q-value: up","right: -.004, left: 0, down: 0, up: -.2, move with best Q-value: left","right: .2, left: 0 , down: 0 , up: 0, move with best Q-value: right","right: -.18, left: 0, down: 0, up: .2, move with best Q-value: up","right: .2328, left: 0, down: 0, up: 0, move with best Q-value: right","right: .36, left: 0, down: -.2, up: 0, move with best Q-value: right","right: 0, left: 0, up: -.2, down: 0, , move with best Q-value: left",em3223@drexel.edu
+3/3/23 08:25,dql27,Dexter Le,"U: 0.49, D: 0.43, L: 0.4, R: 0.47, UP","U: 0.36, D: 0.41, L: 0.47, R: 0.39, LEFT","U: 0.6, D: 0.43, L: 0.39, R: 0.40, UP","U: 0.34, D: 0.2, L: 0.38, R: 0.2, LEFT","U: 0.5, D: 0.54, L: 0.57, R: 0.67, RIGHT","U: -0.5, D: 0.20, L: 0.43, R: -0.45, LEFT","U: 0.62, D: 0.6, L: 0.63, R: 0.68, RIGHT","U: 0.53, D: 0.63, L: 0.67, R: 0.9, RIGHT","U: -0.8, D: 0.1, L: 0.2, R: -0.4, LEFT",dql27@drexel.edu
+3/3/23 08:48,ss5277,Srija Saha,,,,,,,,,,ss5277@drexel.edu
+3/3/23 09:49,wc495,Weijie Chen,"Left: 0, Right: -.0231, Up: .002261, Down: 0","Left: 0, Right: -.02463, Up: 0, Down: 0","Left: 0, Right: .00825, Up: .026781, Down: 0","Left: 0, Right: -.036, Up: -.05493, Down: 0","Left: 0, Right: .045831, Up:0, Down:0","Left:0, Right=-.4, Up, .04536, Down: 0","Left: 0, Right: .135008, Up: 0, Down: 0","Left:0, Right: .4016, Up: 0, Down: -.072","Left:0, Right:-.2, Up: 0, Down:0",wc495@drexel.edu
+3/7/23 12:45,sb4255,Salamata Bah,"0.72, best move = right","0.51 , best move = down","0.81 , best move = down","0.47 , best move = down"," 0.72   ,best move = right"," 0.69 , best move = left","0.79, best move = right","0.71, best move = right","0.30, best move = down",sb4255@drexel.edu
+3/7/23 12:46,ffk23,Fawzia Khan,"0.72, right","0.51, down","0.81, down","0.47, down","0.72, right","0.69, left","0.79, right","0.71, right","0.30, down",ffk23@drexel.edu
+3/7/23 13:49,vnt24,Vishal Tailor,0,0,0,1.8,1.8,0.7,0.7,2.25,2.25,vnt24@drexel.edu
+3/7/23 13:48,ns3335,Nikhil Solanki,0,0,1.8,0.324,0.5832,1,0,1,0,nikhil.solanki@drexel.edu

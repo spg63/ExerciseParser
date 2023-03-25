@@ -1,0 +1,27 @@
+Timestamp,ID,Your first and last name(s),"Output for the input (0,0):","Output for the input (0,1):","Output for the input (1,0):","Output for the input (1,1):","What logical function does this perceptron represent? (OR, AND, NOT, or NOR)",What will be the function if we change the bias weight to -0.5?,Email Address
+3/8/23 16:13,hlp54,Ken Pham,-1.5 -> 0,-0.5 -> 0,-0.5 -> 0,0.5 -> 1,AND,OR,hlp54@drexel.edu
+3/8/23 16:10,atg65,Azra Gallano,0,0,0,1,AND,OR,atg65@drexel.edu
+3/8/23 16:11,Jzs25,Jazz Sussman Moss,0,0,0,1,AND,OR,jzs25@drexel.edu
+3/8/23 16:11,atb87,Andrew Bui,0,0,0,1,AND,OR,atb87@drexel.edu
+3/8/23 16:11,np657,Nikhil Parakh,,,,,,,np657@drexel.edu
+3/8/23 16:11,cjb393,Chris Blank,0*1 + 0*1 + (1)(-1.5) = -1.5 --> output 0,0*1 + 1*1 + (1)(-1.5) = -0.5 --> output 0,1*1 + 0*1 + (1)(-1.5) = -0.5 --> output 0,1*1 + 1*1 + (1)(-1.5) = 0.5 --> output 1,AND,OR,cjb393@drexel.edu
+3/8/23 16:14,ji328,Josephina Im,1(0) + 1(0) + (-1.5) = 0,1(0)+1(1)+(-1.5) = 0,1(1)+1(0)+(-1.5) = 0,1(1)+1(1)+(-1.5) = 1,AND,OR,ji328@drexel.edu
+3/8/23 16:14,jad553,Joshua Derikito,0,0,0,1,AND,OR,jad553@drexel.edu
+3/8/23 16:15,jd3622,Jack Durgin,0,0,0,1,AND,OR,jd3622@drexel.edu
+3/8/23 16:15,rmf323,Reed Fleming,0,0,0,1,and,or,rmf323@drexel.edu
+3/8/23 16:17,rv424,Richard Vo,0,0,0,1,AND,OR,rv424@drexel.edu
+3/8/23 16:15,ada77,Abby Adeola,0,0,0,1,AND,OR,ada77@drexel.edu
+3/8/23 16:16,ayw32,Alexander Wang,0,0,0,1,AND,It would still be AND,ayw32@drexel.edu
+3/8/23 16:16,nps47,Nataniel Saadon,0,0,0,1,and,or,nps47@drexel.edu
+3/8/23 16:17,irs27,Iain Shand,0,0,0,1,AND,OR,irs27@drexel.edu
+3/8/23 16:18,hl633,Hajun Lee,0,0,0,1,AND,OR,hl633@drexel.edu
+3/8/23 16:18,aia43,Alisha Augustin,0,0,0,1,AND,XOR,aia43@drexel.edu
+3/8/23 16:18,jtw72,Jonathan Wacker,0,0,0,1,AND,OR,jtw72@drexel.edu
+3/8/23 16:18,ig346,Itay Goldfarb,0,0,0,1,AND,OR,ig346@drexel.edu
+3/8/23 16:18,KTC53,Kyle Cook,-1.5,-0.5,-0.5,0.5,AND,OR,ktc53@drexel.edu
+3/8/23 16:18,eas469,Elyse Stuart,1(-1.5) + 0(1) + 0(1) = -1.5 --> 0,1(-1.5) + 0(1) + 1(1) = -0.5 --> 0,1(-1.5) + 1(1) + 0(1) = -0.5 --> 0,1(-1.5) + 1(1) + 1(1) = 0.5 --> 1,AND,OR,eas469@drexel.edu
+3/8/23 16:18,mfd58,Morolayo Dahunsi,0,0,0,1,AND,OR,mfd58@drexel.edu
+3/8/23 16:18,cel334,Chance Leed,-0.5,-1.5,-1.5,0.5,and,,cel334@drexel.edu
+3/8/23 16:19,oc76,Omri Chashper,0,0,0,1,AND,OR,oc76@drexel.edu
+3/8/23 16:21,ht377,Harshil Thakur,0(1) + 0(1) + 1(-1.5) = -1.5 < 0 -> 0,0(1) + 1(1) + 1(-1.5) = -0.5 < 0 -> 0,1(1) + 0(1) + 1(-1.5) = -0.5 < 0 -> 0,1(1) + 1(1) + 1(-1.5) = 0.5 > 0 -> 1,AND,OR,ht377@drexel.edu
+3/8/23 16:26,dvd42,Daniel Damiano,,,,,,,dvd42@drexel.edu
